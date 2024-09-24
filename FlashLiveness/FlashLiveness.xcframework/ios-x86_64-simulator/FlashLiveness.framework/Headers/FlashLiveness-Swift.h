@@ -317,6 +317,13 @@ typedef SWIFT_ENUM(NSInteger, LivenessError, open) {
 };
 static NSString * _Nonnull const LivenessErrorDomain = @"FlashLiveness.LivenessError";
 
+
+SWIFT_CLASS("_TtC13FlashLiveness18LivenessFaceImages")
+@interface LivenessFaceImages : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSString;
 
 SWIFT_CLASS("_TtC13FlashLiveness16LivenessResponse")
@@ -364,14 +371,14 @@ SWIFT_CLASS("_TtC13FlashLiveness23LivenessUtilityDetector") SWIFT_AVAILABILITY(i
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImage;
 
 SWIFT_PROTOCOL("_TtP13FlashLiveness31LivenessUtilityDetectorDelegate_") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @protocol LivenessUtilityDetectorDelegate
 @optional
 - (void)liveness:(LivenessUtilityDetector * _Nonnull)liveness didFail:(enum LivenessError)withError;
-- (void)liveness:(LivenessUtilityDetector * _Nonnull)liveness didFinishWithResult:(NSDictionary<NSString *, id> * _Nonnull)result;
-- (void)liveness:(LivenessUtilityDetector * _Nonnull)liveness didFinishWithFaceImages:(NSArray<UIImage *> * _Nonnull)images;
+- (void)liveness:(LivenessUtilityDetector * _Nonnull)liveness didFinishUploadWithResult:(NSDictionary<NSString *, id> * _Nonnull)result;
+- (void)liveness:(LivenessUtilityDetector * _Nonnull)liveness didFinishWithResult:(LivenessResult * _Nonnull)result;
+- (void)liveness:(LivenessUtilityDetector * _Nonnull)liveness didFinishWithFaceImages:(LivenessFaceImages * _Nonnull)images;
 @end
 
 typedef SWIFT_ENUM(NSInteger, LogLevel, open) {
@@ -395,12 +402,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Networking *
 @end
 
 
+@class UIImage;
 
 SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface Networking (SWIFT_EXTENSION(FlashLiveness))
 - (void)initTransactionWithDuration:(NSInteger)duration additionParam:(NSDictionary<NSString *, id> * _Nonnull)additionParam paramHeader:(NSDictionary<NSString *, NSString *> * _Nonnull)paramHeader clientTransactionId:(NSString * _Nonnull)clientTransactionId completionHandler:(void (^ _Nonnull)(LivenessResponse * _Nullable, NSError * _Nullable))completionHandler SWIFT_METHOD_FAMILY(none);
 - (void)registerFaceWithFaceImage:(UIImage * _Nonnull)faceImage additionParam:(NSDictionary<NSString *, id> * _Nonnull)additionParam paramHeader:(NSDictionary<NSString *, NSString *> * _Nonnull)paramHeader completionHandler:(void (^ _Nonnull)(LivenessResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
+
 
 
 #endif

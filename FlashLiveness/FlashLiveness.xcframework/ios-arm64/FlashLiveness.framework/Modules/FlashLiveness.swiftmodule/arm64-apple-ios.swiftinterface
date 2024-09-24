@@ -108,11 +108,15 @@ public struct MultipartRequest {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImages : ObjectiveC.NSObject {
+  @objc deinit
+}
 @available(iOS 13.0, *)
 @objc public protocol LivenessUtilityDetectorDelegate {
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFail withError: FlashLiveness.LivenessError)
-  @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishWithResult result: [Swift.String : Any])
-  @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishWithFaceImages images: [UIKit.UIImage])
+  @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishUploadWithResult result: [Swift.String : Any])
+  @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishWithResult result: FlashLiveness.LivenessResult)
+  @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishWithFaceImages images: FlashLiveness.LivenessFaceImages)
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class LivenessUtilityDetector : ObjectiveC.NSObject {
