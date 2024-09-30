@@ -26,13 +26,81 @@ Step 2: Open your project target, in General tab, see the Frameworks, Libraries,
 
 ## Implement code
 
-Step 1: create a livenessDetector variable
+### Bước 1: Setup key cho hệ thống
+
+setup key ở hàm **didFinishLaunchingWithOptions** tại **AppDelegate** như sau:
+
 ```swift
-var livenessDetector: LivenessUtilityDetector?
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    // Override point for customization after application launch.
+    Networking.shared.resetDeviceInfo()        
+    let urlPrivate = Bundle.main.url(forResource: "com.qts.test", withExtension: "txt")
+    let urlPublic = Bundle.main.url(forResource: "eid", withExtension: "txt")
+    let privateKey = try! String(contentsOf: urlPrivate!, encoding: .utf8)
+    let publicKey = try! String(contentsOf: urlPublic!, encoding: .utf8)
+    Networking.shared.setup(appId: "com.pvcb", logLevel: .debug, url: "https://ekyc-sandbox.eidas.vn/face-matching", publicKey: publicKey, privateKey: privateKey)
+    let resposne = Networking.shared.generateDeviceInfor(deviceId: "testtest")
+    print(resposne)
+    return true
+}
 ```
 
-Step 2: init **livenessDetector** in **viewDidLoad**
+Trong đó:
+- appId: tên ứng dụng đăng kí với hệ thống
+- private Key và public Key là do hệ thống backend sinh ra cung cấp
+-  url : Đường dẫn đến hệ thống backend
+
+### Bước 2: Đăng ký face
+
+Đăng kí face để thực hiện so khớp khuôn mặt sau khi livenesscheck
+Nếu đã thực hiện trên server thì có thể bỏ qua bước này
+
 ```swift
+Task {
+    do {
+        let response = try await Networking.shared.registerFace(faceImage: UIImage(named: "image.png")!,paramHeader: ["header":"header"])
+        print(response.data)
+    } catch {
+        
+    }
+}
+```
+
+### Bước 3: khởi tạo *transactionId*
+
+Trước khi thực hiện liveness check cần khởi tạo 1 transactionId
+
+```swift
+Task {
+    do {
+        let response = try await Networking.shared.initTransaction(additionParam: ["clientTransactionId":clienttransaction])
+        if response.status == 200{
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "LivenessFlashVC") as! LivenessFlashVC
+            vc.transactionId = response.data
+            vc.clientTransaction = self.clienttransaction
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }catch{
+        let alert = UIAlertController(title: "Info", message: error.localizedDescription, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .destructive))
+        self.present(alert, animated: true)
+    }
+}
+```
+
+### Bước 4: setup thực hiện luồng FlashLiveness
+
+Khởi tạo 1 view trên màn hình để tiến hành thực hiện việc liveness check chỉ trên phần
+view đó
+
+![Screenshot](screenshot1.png)
+
+Khởi tạo biến **livenessDetector** trong **viewDidLoad**
+
+```swift
+var livenessDetector: LivenessUtilityDetector?
+
 override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -40,7 +108,14 @@ override func viewDidLoad() {
 }
 ```
 
-Step 3: in **viewWillAppear**, call function to start liveness
+Trong đó
+- previewView: phần view hiển thị liveness check
+- mode: cách thức FlashLiveness online hoặc offline. Trả kết quả khác nhau ở delegate
+- debugging: Có muốn xuất log ra hay không
+- delegate: Gán các callback khi thực hiện liveness check
+
+Khi view bắt đầu hiện ra thì bắt đầu startsession ở **viewWillAppear** để thực hiện việc liveness check. Lúc này sẽ thực hiện truyền transactionId vào.
+
 ```swift
 override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
@@ -52,11 +127,48 @@ override func viewWillAppear(_ animated: Bool) {
 }
 ```
 
-Step 4: in **viewWillDisappear**, call function to stop liveness
+Sau khi thực hiện livenessCheck xong sẽ callback ngược lại thông qua *delegate*
+
+Ở mode online, khi thành công sẽ callback về **didFinishWithResult**
+
 ```swift
-override func viewWillDisappear(_ animated: Bool) {
-    super.viewWillDisappear(animated)
-    self.livenessDetector?.stopLiveness()
+func liveness(_ liveness: LivenessUtilityDetector, didFinishWithResult result: LivenessResult) {
+    guard let json = try? JSONSerialization.data(withJSONObject: result.data) else {
+        return
+    }
+    let alert = UIAlertController(title: "Response", message: String(data: json, encoding: .utf8), preferredStyle: .alert)
+    alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: { _ in
+        try? self.livenessDetector?.getVerificationRequiresAndStartSession()
+    }))
+    DispatchQueue.main.async {
+        self.present(alert, animated: true)
+    }
+}
+```
+
+Ở mode offline, khi thành công sẽ callback về **didFinishWithFaceImages**
+
+```swift
+func liveness(_ liveness: LivenessUtilityDetector, didFinishWithFaceImages images: LivenessFaceImages) {
+    UIImageWriteToSavedPhotosAlbum(images.clear, nil, nil, nil)
+    UIImageWriteToSavedPhotosAlbum(images.red, nil, nil, nil)
+    UIImageWriteToSavedPhotosAlbum(images.green, nil, nil, nil)
+    UIImageWriteToSavedPhotosAlbum(images.blue, nil, nil, nil)
+    let alert = UIAlertController(title: "Response", message: "Thành công", preferredStyle: .alert)
+    alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: { _ in
+        try? self.livenessDetector?.getVerificationRequiresAndStartSession()
+    }))
+    DispatchQueue.main.async {
+        self.present(alert, animated: true)
+    }
+}
+```
+
+Khi thất bại, sẽ callback về **didFail**
+
+```swift
+func liveness(_ liveness: LivenessUtilityDetector, didFail withError: LivenessError) {
+    print("Liveness failed because of \(withError)")
 }
 ```
 

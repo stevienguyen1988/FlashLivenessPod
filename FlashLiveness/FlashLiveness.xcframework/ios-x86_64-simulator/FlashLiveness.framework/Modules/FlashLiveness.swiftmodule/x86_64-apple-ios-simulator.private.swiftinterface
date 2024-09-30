@@ -109,6 +109,10 @@ public struct MultipartRequest {
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImages : ObjectiveC.NSObject {
+  @objc final public let clear: UIKit.UIImage
+  @objc final public let red: UIKit.UIImage
+  @objc final public let green: UIKit.UIImage
+  @objc final public let blue: UIKit.UIImage
   @objc deinit
 }
 @available(iOS 13.0, *)

@@ -317,9 +317,14 @@ typedef SWIFT_ENUM(NSInteger, LivenessError, open) {
 };
 static NSString * _Nonnull const LivenessErrorDomain = @"FlashLiveness.LivenessError";
 
+@class UIImage;
 
 SWIFT_CLASS("_TtC13FlashLiveness18LivenessFaceImages")
 @interface LivenessFaceImages : NSObject
+@property (nonatomic, readonly, strong) UIImage * _Nonnull clear;
+@property (nonatomic, readonly, strong) UIImage * _Nonnull red;
+@property (nonatomic, readonly, strong) UIImage * _Nonnull green;
+@property (nonatomic, readonly, strong) UIImage * _Nonnull blue;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -402,7 +407,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Networking *
 @end
 
 
-@class UIImage;
 
 SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface Networking (SWIFT_EXTENSION(FlashLiveness))
