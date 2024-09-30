@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   
   spec.platform = :ios
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "11.0"
 
   spec.source            = { :http => 'https://github.com/stevienguyen1988/FlashLivenessPod/releases/download/1.0.0/FlashLiveness.zip' }
   spec.vendored_frameworks = 'FlashLiveness/FlashLiveness.xcframework'
