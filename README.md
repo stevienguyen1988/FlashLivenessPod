@@ -4,7 +4,7 @@ The mobile iOS SDK of FlashLiveness.
 
 ## Example
 
-To run the example project, see [FlashLiveness Sample](https://github.com/stevienguyen1988/livenessCloudSample.git)
+To run the example project, see **LivenessCloudSample** folder or [FlashLiveness Sample](https://github.com/stevienguyen1988/livenessCloudSample.git)
 
 ## Requirements
 
@@ -174,4 +174,4 @@ func liveness(_ liveness: LivenessUtilityDetector, didFail withError: LivenessEr
 
 ## Authors
 
-* **nhatnuoc** - *QTS*
+* **Nguyễn Thanh Bình** - *QTS*

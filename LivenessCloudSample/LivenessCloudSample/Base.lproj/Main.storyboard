@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e4E-PY-93D">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="2K4-f6-A22">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e4E-PY-93D" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pXd-H6-KFG">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7cX-dG-y4I" kind="relationship" relationship="rootViewController" id="Sg0-aM-h4o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P1x-OY-XsI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-405.34351145038164" y="76.760563380281695"/>
+        </scene>
+        <!--Liveness FlashVC-->
+        <scene sceneID="51Y-uL-3sc">
+            <objects>
+                <viewController storyboardIdentifier="LivenessFlashVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="O3u-no-F1g" customClass="LivenessFlashVC" customModule="LivenessCloudSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W1V-0G-3oe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5F-GC-d74">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="a5d-JE-aeS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="a5F-GC-d74" secondAttribute="trailing" id="JhU-Yv-7xU"/>
+                            <constraint firstItem="a5F-GC-d74" firstAttribute="top" secondItem="W1V-0G-3oe" secondAttribute="top" id="NNE-1J-Te3"/>
+                            <constraint firstItem="a5F-GC-d74" firstAttribute="leading" secondItem="W1V-0G-3oe" secondAttribute="leading" id="yME-iJ-kF1"/>
+                            <constraint firstAttribute="bottom" secondItem="a5F-GC-d74" secondAttribute="bottom" id="zaz-Xt-ZRR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="previewView" destination="a5F-GC-d74" id="T00-cC-K1t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6fi-1u-kTN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2044" y="130"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c8h-Jp-S50">
+            <objects>
+                <viewController id="7cX-dG-y4I" customClass="ViewController" customModule="LivenessCloudSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vbx-bH-NIB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiH-uc-3cq">
+                                <rect key="frame" x="138" y="406.66666666666669" width="117" height="39"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Liveness 3D"/>
+                                <connections>
+                                    <action selector="livenessBtnTapped:" destination="7cX-dG-y4I" eventType="touchUpInside" id="bb4-C2-y5R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPk-rx-FFB">
+                                <rect key="frame" x="123" y="481.66666666666669" width="147" height="39.000000000000057"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Liveness FLASH"/>
+                                <connections>
+                                    <action selector="livenessFlashBtnTapped:" destination="7cX-dG-y4I" eventType="touchUpInside" id="1SQ-td-VcA"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZv-bg-juc">
+                                <rect key="frame" x="132.66666666666666" y="321.66666666666669" width="127.99999999999997" height="39"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Register Face"/>
+                                <connections>
+                                    <action selector="registerFace:" destination="7cX-dG-y4I" eventType="touchUpInside" id="quX-4L-V8F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7ap-Ef-nzL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GZv-bg-juc" firstAttribute="centerX" secondItem="vbx-bH-NIB" secondAttribute="centerX" id="6SQ-i2-Tw3"/>
+                            <constraint firstItem="YPk-rx-FFB" firstAttribute="top" secondItem="EiH-uc-3cq" secondAttribute="bottom" constant="36.329999999999998" id="FaL-f8-sNN"/>
+                            <constraint firstItem="YPk-rx-FFB" firstAttribute="centerX" secondItem="vbx-bH-NIB" secondAttribute="centerX" id="YOg-WC-QTU"/>
+                            <constraint firstItem="EiH-uc-3cq" firstAttribute="centerX" secondItem="vbx-bH-NIB" secondAttribute="centerX" id="nv5-fK-xpB"/>
+                            <constraint firstItem="EiH-uc-3cq" firstAttribute="top" secondItem="GZv-bg-juc" secondAttribute="bottom" constant="45.670000000000002" id="tFt-JJ-gzM"/>
+                            <constraint firstItem="EiH-uc-3cq" firstAttribute="centerY" secondItem="vbx-bH-NIB" secondAttribute="centerY" id="uJo-0K-prQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MQV-YO-nXN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMz-cD-tCw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="521.37404580152668" y="76.760563380281695"/>
+        </scene>
+        <!--LivenessVC-->
+        <scene sceneID="hHV-w0-NU4">
+            <objects>
+                <viewController storyboardIdentifier="LivenessVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zB5-P3-gJe" customClass="LivenessVC" customModule="LivenessCloudSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gUY-hR-SxL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Et9-s3-YHZ">
+                                <rect key="frame" x="46.666666666666657" y="226" width="300" height="400"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="9k4-S0-3Kn"/>
+                                    <constraint firstAttribute="width" constant="300" id="McY-Nc-BU2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="b8Z-w7-F43"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Et9-s3-YHZ" firstAttribute="centerY" secondItem="gUY-hR-SxL" secondAttribute="centerY" id="3eI-Ib-1eL"/>
+                            <constraint firstItem="Et9-s3-YHZ" firstAttribute="centerX" secondItem="gUY-hR-SxL" secondAttribute="centerX" id="JWq-Ct-ACn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="previewView" destination="Et9-s3-YHZ" id="0mG-Il-63E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SyH-fq-JF6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1175" y="105"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
