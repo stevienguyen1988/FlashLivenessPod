@@ -17,7 +17,7 @@ class LivenessFlashVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.livenessDetector = LivenessUtil.createLivenessDetector(previewView: self.previewView, mode: .online, delegate: self)
+        self.livenessDetector = LivenessUtil.createLivenessDetector(previewView: self.previewView, mode: .offline, filterColors: [.red, .yellow], delegate: self)
 //        Task{
 //            do{
 //                try await Networking.shared.updateloadImage(image: UIImage.init(named: "alpha.png")!, threshold: 1, thema: 1)
@@ -87,10 +87,9 @@ extension LivenessFlashVC: LivenessUtilityDetectorDelegate {
     }
     
     func liveness(_ liveness: LivenessUtilityDetector, didFinishWithFaceImages images: LivenessFaceImages) {
-        UIImageWriteToSavedPhotosAlbum(images.clear, nil, nil, nil)
-        UIImageWriteToSavedPhotosAlbum(images.red, nil, nil, nil)
-        UIImageWriteToSavedPhotosAlbum(images.green, nil, nil, nil)
-        UIImageWriteToSavedPhotosAlbum(images.blue, nil, nil, nil)
+        images.images.forEach { image in
+            UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+        }
         let alert = UIAlertController(title: "Response", message: "Thành công", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: { _ in
             try? self.livenessDetector?.getVerificationRequiresAndStartSession()
