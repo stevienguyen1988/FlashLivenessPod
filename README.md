@@ -104,13 +104,14 @@ var livenessDetector: LivenessUtilityDetector?
 override func viewDidLoad() {
     super.viewDidLoad()
 
-    self.livenessDetector = LivenessUtil.createLivenessDetector(previewView: self.previewView, mode: .online, delegate: self)
+    self.livenessDetector = LivenessUtil.createLivenessDetector(previewView: self.previewView, mode: .online, filterColors: [.red, .green, .blue], delegate: self)
 }
 ```
 
 Trong đó
 - previewView: phần view hiển thị liveness check
 - mode: cách thức FlashLiveness online hoặc offline. Trả kết quả khác nhau ở delegate
+- filterColors: mảng chứa các màu dùng để filter trong quá trình liveness
 - debugging: Có muốn xuất log ra hay không
 - delegate: Gán các callback khi thực hiện liveness check
 
@@ -146,14 +147,13 @@ func liveness(_ liveness: LivenessUtilityDetector, didFinishWithResult result: L
 }
 ```
 
-Ở mode offline, khi thành công sẽ callback về **didFinishWithFaceImages**
+Ở mode offline, khi thành công sẽ callback về **didFinishWithFaceImages**, trong đó param **images** chứa 1 mảng images khi liveness, tương ứng index với từng màu filterColors được truyền vào
 
 ```swift
 func liveness(_ liveness: LivenessUtilityDetector, didFinishWithFaceImages images: LivenessFaceImages) {
-    UIImageWriteToSavedPhotosAlbum(images.clear, nil, nil, nil)
-    UIImageWriteToSavedPhotosAlbum(images.red, nil, nil, nil)
-    UIImageWriteToSavedPhotosAlbum(images.green, nil, nil, nil)
-    UIImageWriteToSavedPhotosAlbum(images.blue, nil, nil, nil)
+    images.images.forEach { image in
+        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+    }
     let alert = UIAlertController(title: "Response", message: "Thành công", preferredStyle: .alert)
     alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: { _ in
         try? self.livenessDetector?.getVerificationRequiresAndStartSession()

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FlashLiveness",
+    "printedName": "FlashLiveness",
     "children": [
       {
         "kind": "Import",
@@ -510,6 +510,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -801,6 +815,22 @@
         "moduleName": "FlashLiveness",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1313,6 +1343,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1736,6 +1780,9 @@
             "moduleName": "FlashLiveness",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1779,6 +1826,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2415,7 +2476,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2493,6 +2570,7 @@
             "mangledName": "$s13FlashLiveness0aB4ModeO6onlineyA2CmF",
             "moduleName": "FlashLiveness",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 0
@@ -2534,6 +2612,7 @@
             "mangledName": "$s13FlashLiveness0aB4ModeO7offlineyA2CmF",
             "moduleName": "FlashLiveness",
             "declAttributes": [
+              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 1
@@ -2617,10 +2696,25 @@
         "moduleName": "FlashLiveness",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2667,7 +2761,7 @@
           {
             "kind": "Function",
             "name": "createLivenessDetector",
-            "printedName": "createLivenessDetector(previewView:mode:debugging:delegate:additionParam:additionHeader:)",
+            "printedName": "createLivenessDetector(previewView:mode:filterColors:debugging:delegate:additionParam:additionHeader:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2687,6 +2781,21 @@
                 "printedName": "FlashLiveness.FlashLivenessMode",
                 "hasDefaultArg": true,
                 "usr": "c:@M@FlashLiveness@E@FlashLivenessMode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIColor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -2752,14 +2861,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessUtil(cm)createLivenessDetectorWithPreviewView:mode:debugging:delegate:additionParam:additionHeader:",
-            "mangledName": "$s13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9debugging8delegate13additionParam0K6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOSbAA0bnE8Delegate_pSgSDySSypGSDyS2SGtFZ",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessUtil(cm)createLivenessDetectorWithPreviewView:mode:filterColors:debugging:delegate:additionParam:additionHeader:",
+            "mangledName": "$s13FlashLiveness0B4UtilC06createB8Detector11previewView4mode12filterColors9debugging8delegate13additionParam0M6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOSaySo7UIColorCGSbAA0bpE8Delegate_pSgSDySSypGSDyS2SGtFZ",
             "moduleName": "FlashLiveness",
             "static": true,
-            "objc_name": "createLivenessDetectorWithPreviewView:mode:debugging:delegate:additionParam:additionHeader:",
+            "objc_name": "createLivenessDetectorWithPreviewView:mode:filterColors:debugging:delegate:additionParam:additionHeader:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2806,6 +2916,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2864,24 +2988,33 @@
         "children": [
           {
             "kind": "Var",
-            "name": "clear",
-            "printedName": "clear",
+            "name": "images",
+            "printedName": "images",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
+                "name": "Array",
+                "printedName": "[UIKit.UIImage]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)clear",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC5clearSo7UIImageCvp",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)images",
+            "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
+              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -2894,164 +3027,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Array",
+                    "printedName": "[UIKit.UIImage]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)clear",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC5clearSo7UIImageCvg",
-                "moduleName": "FlashLiveness",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "red",
-            "printedName": "red",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)red",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC3redSo7UIImageCvp",
-            "moduleName": "FlashLiveness",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)red",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC3redSo7UIImageCvg",
-                "moduleName": "FlashLiveness",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "green",
-            "printedName": "green",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)green",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC5greenSo7UIImageCvp",
-            "moduleName": "FlashLiveness",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)green",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC5greenSo7UIImageCvg",
-                "moduleName": "FlashLiveness",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "blue",
-            "printedName": "blue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)blue",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC4blueSo7UIImageCvp",
-            "moduleName": "FlashLiveness",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)blue",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC4blueSo7UIImageCvg",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)images",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -3104,6 +3095,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3192,7 +3197,8 @@
             "protocolReq": true,
             "declAttributes": [
               "Optional",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3279,7 +3285,8 @@
             "protocolReq": true,
             "declAttributes": [
               "Optional",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3316,7 +3323,8 @@
             "protocolReq": true,
             "declAttributes": [
               "Optional",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -3328,11 +3336,25 @@
         "moduleName": "FlashLiveness",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
-        "intro_iOS": "13.0",
         "declAttributes": [
           "AccessControl",
-          "ObjC",
-          "Available"
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3439,10 +3461,6 @@
                 "mangledName": "$s13FlashLiveness0B15UtilityDetectorC8delegateAA0bcD8Delegate_pSgvM",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
-                "intro_iOS": "13.0",
-                "declAttributes": [
-                  "Available"
-                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -3495,7 +3513,8 @@
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3530,11 +3549,10 @@
         "usr": "c:@M@FlashLiveness@objc(cs)LivenessUtilityDetector",
         "mangledName": "$s13FlashLiveness0B15UtilityDetectorC",
         "moduleName": "FlashLiveness",
-        "intro_iOS": "13.0",
         "declAttributes": [
           "AccessControl",
           "ObjC",
-          "Available"
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
@@ -3542,6 +3560,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4030,6 +4062,20 @@
             "printedName": "Mappable",
             "usr": "s:12ObjectMapper8MappableP",
             "mangledName": "$s12ObjectMapper8MappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5268,6 +5314,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5609,104 +5669,6 @@
       "value": "8"
     },
     {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 197,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 216,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 233,
-      "length": 8,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 251,
-      "length": 8,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 269,
-      "length": 25,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 304,
-      "length": 11,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 325,
-      "length": 7,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 342,
-      "length": 9,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Logging.swift",
-      "kind": "IntegerLiteral",
-      "offset": 285,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Logging.swift",
-      "kind": "IntegerLiteral",
-      "offset": 304,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Logging.swift",
-      "kind": "IntegerLiteral",
-      "offset": 322,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Logging.swift",
-      "kind": "IntegerLiteral",
-      "offset": 343,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Logging.swift",
-      "kind": "IntegerLiteral",
-      "offset": 362,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Logging.swift",
-      "kind": "IntegerLiteral",
-      "offset": 380,
-      "length": 1,
-      "value": "5"
-    },
-    {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
@@ -5764,148 +5726,127 @@
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 279,
-      "length": 15,
-      "value": "\"FlashLiveness.FaceCaptureStep\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1486,
+      "offset": 1189,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1492,
+      "offset": 1195,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1502,
+      "offset": 1205,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1514,
+      "offset": 1217,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 1606,
+      "offset": 1309,
       "length": 3,
-      "value": "0.5"
+      "value": "0.6"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1726,
+      "offset": 1429,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1887,
+      "offset": 1584,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1976,
+      "offset": 1673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2105,
+      "offset": 3586,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 5617,
+      "offset": 6947,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 174,
-      "length": 21,
-      "value": "\"FlashLiveness.FlashLivenessDetector\""
+      "offset": 18352,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 172,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 172,
+      "offset": 467,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 381,
+      "offset": 1452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Dictionary",
-      "offset": 462,
+      "offset": 1533,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Dictionary",
-      "offset": 501,
+      "offset": 1572,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 886,
-      "length": 18,
-      "value": "\"FlashLiveness.LivenessFaceImages\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1979,
+      "offset": 3577,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 2015,
+      "offset": 3613,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 2122,
+      "offset": 3908,
       "length": 2,
       "value": "\"\""
     },
@@ -5936,13 +5877,6 @@
       "offset": 331,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
-      "kind": "StringLiteral",
-      "offset": 150,
-      "length": 16,
-      "value": "\"FlashLiveness.LivenessResponse\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
@@ -6020,13 +5954,6 @@
       "offset": 1098,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
-      "kind": "StringLiteral",
-      "offset": 619,
-      "length": 14,
-      "value": "\"FlashLiveness.LivenessResult\""
     }
   ]
 }

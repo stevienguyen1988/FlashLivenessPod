@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FlashLiveness
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Foundation
 import KeychainSwift
@@ -23,15 +24,9 @@ import _SwiftConcurrencyShims
 }
 @available(iOS 13.0, *)
 extension FlashLiveness.Networking {
-  #if compiler(>=5.3) && $AsyncAwait
   public func uploadImage(normalImage: [UIKit.UIImage], color: Swift.Int, sessionId: Swift.String = "") async throws -> [Swift.String : Any]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @objc dynamic public func initTransaction(duration: Swift.Int = 30, additionParam: [Swift.String : Any] = [:], paramHeader: [Swift.String : Swift.String] = [:], clientTransactionId: Swift.String = "") async throws -> FlashLiveness.LivenessResponse
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   @objc dynamic public func registerFace(faceImage: UIKit.UIImage, additionParam: [Swift.String : Any] = [:], paramHeader: [Swift.String : Swift.String] = [:]) async throws -> FlashLiveness.LivenessResponse
-  #endif
 }
 public struct MultipartRequest {
   public let boundary: Swift.String
@@ -74,7 +69,7 @@ public struct MultipartRequest {
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [FlashLiveness.LogLevel]
   public typealias RawValue = Swift.Int
-  public static var allCases: [FlashLiveness.LogLevel] {
+  nonisolated public static var allCases: [FlashLiveness.LogLevel] {
     get
   }
   public var rawValue: Swift.Int {
@@ -104,26 +99,21 @@ public struct MultipartRequest {
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class LivenessUtil : ObjectiveC.NSObject {
-  @objc public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
+  @objc public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, filterColors: [UIKit.UIColor] = [.red, .green, .blue], debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
   @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImages : ObjectiveC.NSObject {
-  @objc final public let clear: UIKit.UIImage
-  @objc final public let red: UIKit.UIImage
-  @objc final public let green: UIKit.UIImage
-  @objc final public let blue: UIKit.UIImage
+  @objc final public let images: [UIKit.UIImage]
   @objc deinit
 }
-@available(iOS 13.0, *)
 @objc public protocol LivenessUtilityDetectorDelegate {
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFail withError: FlashLiveness.LivenessError)
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishUploadWithResult result: [Swift.String : Any])
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishWithResult result: FlashLiveness.LivenessResult)
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishWithFaceImages images: FlashLiveness.LivenessFaceImages)
 }
-@_inheritsConvenienceInitializers @available(iOS 13.0, *)
-@objc public class LivenessUtilityDetector : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class LivenessUtilityDetector : ObjectiveC.NSObject {
   weak public var delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?
   @objc public func getVerificationRequiresAndStartSession(transactionId: Swift.String = "") throws
   @objc public func stopLiveness()
