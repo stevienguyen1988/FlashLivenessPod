@@ -104,7 +104,10 @@ public struct MultipartRequest {
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImages : ObjectiveC.NSObject {
-  @objc final public let images: [UIKit.UIImage]
+  @objc public var images: [UIKit.UIImage]?
+  @objc final public let originalImage: UIKit.UIImage
+  @objc final public let attemptImage: UIKit.UIImage
+  @objc final public let attemptColorCode: Swift.Int
   @objc deinit
 }
 @objc public protocol LivenessUtilityDetectorDelegate {

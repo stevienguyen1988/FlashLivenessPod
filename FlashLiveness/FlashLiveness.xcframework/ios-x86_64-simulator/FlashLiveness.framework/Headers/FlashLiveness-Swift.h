@@ -328,8 +328,14 @@ static NSString * _Nonnull const LivenessErrorDomain = @"FlashLiveness.LivenessE
 
 SWIFT_CLASS("_TtC13FlashLiveness18LivenessFaceImages")
 @interface LivenessFaceImages : NSObject
-/// mảng các images sinh ra trong quá trình liveness
-@property (nonatomic, readonly, copy) NSArray<UIImage *> * _Nonnull images;
+/// mảng các images chứa màu truyền vào sinh ra trong quá trình liveness
+@property (nonatomic, copy) NSArray<UIImage *> * _Nullable images;
+/// ảnh nguyên bản sinh ra trong quá trình liveness
+@property (nonatomic, readonly, strong) UIImage * _Nonnull originalImage;
+/// ảnh màu random từ server trong quá trình liveness
+@property (nonatomic, readonly, strong) UIImage * _Nonnull attemptImage;
+/// màu được random từ server
+@property (nonatomic, readonly) NSInteger attemptColorCode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -375,7 +381,7 @@ SWIFT_CLASS("_TtC13FlashLiveness12LivenessUtil") SWIFT_AVAILABILITY(ios,introduc
 ///
 /// \param mode cách thức FlashLiveness online hoặc offline. Trả kết quả khác nhau ở delegate
 ///
-/// \param filterColors mảng chứa các màu dùng để filter trong quá trình liveness
+/// \param filterColors mảng chứa các màu dùng để custom filter trong quá trình liveness, có thể truyền hoặc không. Nếu không truyền thì sẽ mặc định trả về delegate: ảnh nguyên bản và ảnh màu gen từ server. Nếu truyền thì sẽ trả về delegate ảnh nguyên bản, ảnh màu gen từ server và ảnh các màu được truyền vào.
 ///
 /// \param debugging Có muốn xuất log ra hay không
 ///

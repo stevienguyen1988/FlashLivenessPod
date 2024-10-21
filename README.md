@@ -111,7 +111,7 @@ override func viewDidLoad() {
 Trong đó
 - previewView: phần view hiển thị liveness check
 - mode: cách thức FlashLiveness online hoặc offline. Trả kết quả khác nhau ở delegate
-- filterColors: mảng chứa các màu dùng để filter trong quá trình liveness
+- filterColors: mảng chứa các màu dùng để custom filter trong quá trình liveness, có thể truyền hoặc không. Nếu không truyền thì sẽ mặc định trả về delegate: ảnh nguyên bản và ảnh màu gen từ server. Nếu truyền thì sẽ trả về delegate ảnh nguyên bản, ảnh màu gen từ server và ảnh các màu được truyền vào.
 - debugging: Có muốn xuất log ra hay không
 - delegate: Gán các callback khi thực hiện liveness check
 
@@ -147,16 +147,21 @@ func liveness(_ liveness: LivenessUtilityDetector, didFinishWithResult result: L
 }
 ```
 
-Ở mode offline, khi thành công sẽ callback về **didFinishWithFaceImages**, trong đó param **images** chứa 1 mảng images khi liveness, tương ứng index với từng màu filterColors được truyền vào
+Ở mode offline, khi thành công sẽ callback về **didFinishWithFaceImages**, trong đó param **images** là đối tượng gồm các trường dữ liệu:
+- **originalImage**: ảnh liveness nguyên bản không màu
+- **attemptImage**: ảnh liveness với màu từ server
+- **images**: mảng các ảnh liveness với các màu truyền vào filterColors từ hàm **createLivenessDetector**
 
 ```swift
 func liveness(_ liveness: LivenessUtilityDetector, didFinishWithFaceImages images: LivenessFaceImages) {
-    images.images.forEach { image in
+    UIImageWriteToSavedPhotosAlbum(images.originalImage, nil, nil, nil)
+    UIImageWriteToSavedPhotosAlbum(images.attemptImage, nil, nil, nil)
+    images.images?.forEach { image in
         UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
     }
     let alert = UIAlertController(title: "Response", message: "Thành công", preferredStyle: .alert)
     alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: { _ in
-        try? self.livenessDetector?.getVerificationRequiresAndStartSession()
+        try? self.livenessDetector?.getVerificationRequiresAndStartSession(transactionId: self.transactionId)
     }))
     DispatchQueue.main.async {
         self.present(alert, animated: true)

@@ -2993,22 +2993,156 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[UIKit.UIImage]",
+                "name": "Optional",
+                "printedName": "[UIKit.UIImage]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Array",
+                    "printedName": "[UIKit.UIImage]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sa"
                   }
                 ],
-                "usr": "s:Sa"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)images",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGvp",
+            "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIImage]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIImage]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)images",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIImage]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIImage]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)setImages:",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvM",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "originalImage",
+            "printedName": "originalImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)originalImage",
+            "mangledName": "$s13FlashLiveness0B10FaceImagesC13originalImageSo7UIImageCvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "Final",
@@ -3027,22 +3161,116 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[UIKit.UIImage]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sa"
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)images",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGvg",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)originalImage",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC13originalImageSo7UIImageCvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attemptImage",
+            "printedName": "attemptImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)attemptImage",
+            "mangledName": "$s13FlashLiveness0B10FaceImagesC12attemptImageSo7UIImageCvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)attemptImage",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC12attemptImageSo7UIImageCvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attemptColorCode",
+            "printedName": "attemptColorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)attemptColorCode",
+            "mangledName": "$s13FlashLiveness0B10FaceImagesC16attemptColorCodeSivp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)attemptColorCode",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC16attemptColorCodeSivg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -5398,217 +5626,217 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 425,
       "length": 24,
       "value": "\"\/eid\/v3\/registerDevice\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 493,
+      "offset": 495,
       "length": 25,
       "value": "\"\/eid\/v3\/initTransaction\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 558,
+      "offset": 561,
       "length": 20,
       "value": "\"\/eid\/v3\/verifyFace\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 622,
-      "length": 23,
-      "value": "\"\/eid\/v3\/checkLiveness\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
-      "kind": "StringLiteral",
-      "offset": 687,
+      "offset": 693,
       "length": 22,
       "value": "\"\/eid\/v3\/registerFace\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 28,
+      "value": "\"\/eid\/v3\/initLivenessAttemp\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 758,
+      "offset": 842,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 792,
+      "offset": 876,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "BooleanLiteral",
-      "offset": 945,
+      "offset": 1029,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 985,
+      "offset": 1069,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1107,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1060,
+      "offset": 1144,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1092,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
-      "kind": "Dictionary",
-      "offset": 1132,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
-      "kind": "Dictionary",
-      "offset": 1178,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
-      "kind": "StringLiteral",
-      "offset": 1217,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
-      "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1176,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
-      "offset": 1624,
+      "offset": 1216,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
-      "offset": 1658,
+      "offset": 1262,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 1679,
+      "offset": 1301,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 3075,
+      "offset": 1676,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8578,
-      "length": 2,
-      "value": "30"
+      "kind": "Dictionary",
+      "offset": 1708,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "kind": "Dictionary",
+      "offset": 1742,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 8668,
+      "offset": 1763,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 3159,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "IntegerLiteral",
-      "offset": 9801,
+      "offset": 9456,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "kind": "StringLiteral",
+      "offset": 9546,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10679,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
-      "offset": 9833,
+      "offset": 10711,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
-      "offset": 9867,
+      "offset": 10745,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 9900,
+      "offset": 10778,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
-      "offset": 10969,
+      "offset": 11847,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
-      "offset": 11003,
+      "offset": 11881,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
-      "offset": 14468,
+      "offset": 15346,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
-      "offset": 14505,
+      "offset": 15383,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
-      "offset": 19197,
+      "offset": 20365,
       "length": 6,
       "value": "\"\r\n\""
     },
@@ -5783,21 +6011,21 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3586,
+      "offset": 3617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 6947,
+      "offset": 6978,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 18352,
+      "offset": 19300,
       "length": 2,
       "value": "\"\""
     },
@@ -5811,42 +6039,42 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1452,
+      "offset": 1750,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Dictionary",
-      "offset": 1533,
+      "offset": 1831,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Dictionary",
-      "offset": 1572,
+      "offset": 1870,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3577,
+      "offset": 4432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 3613,
+      "offset": 4468,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 3908,
+      "offset": 4763,
       "length": 2,
       "value": "\"\""
     },
