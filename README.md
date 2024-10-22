@@ -104,14 +104,15 @@ var livenessDetector: LivenessUtilityDetector?
 override func viewDidLoad() {
     super.viewDidLoad()
 
-    self.livenessDetector = LivenessUtil.createLivenessDetector(previewView: self.previewView, mode: .online, filterColors: [.red, .green, .blue], delegate: self)
+    self.livenessDetector = LivenessUtil.createLivenessDetector(previewView: self.previewView, mode: .offline(filterColors: [.red, .green, .blue]), delegate: self)
+    // hoặc
+    self.livenessDetector = LivenessUtil.createLivenessDetector(previewView: self.previewView, mode: .online(), delegate: self)
 }
 ```
 
 Trong đó
 - previewView: phần view hiển thị liveness check
-- mode: cách thức FlashLiveness online hoặc offline. Trả kết quả khác nhau ở delegate
-- filterColors: mảng chứa các màu dùng để custom filter trong quá trình liveness, có thể truyền hoặc không. Nếu không truyền thì sẽ mặc định trả về delegate: ảnh nguyên bản và ảnh màu gen từ server. Nếu truyền thì sẽ trả về delegate ảnh nguyên bản, ảnh màu gen từ server và ảnh các màu được truyền vào.
+- mode: cách thức FlashLiveness online hoặc offline. Trả kết quả khác nhau ở delegate. Trong đó có param **filterColors** là mảng chứa các màu dùng để custom filter trong quá trình liveness, có thể truyền hoặc không.
 - debugging: Có muốn xuất log ra hay không
 - delegate: Gán các callback khi thực hiện liveness check
 
@@ -149,13 +150,11 @@ func liveness(_ liveness: LivenessUtilityDetector, didFinishWithResult result: L
 
 Ở mode offline, khi thành công sẽ callback về **didFinishWithFaceImages**, trong đó param **images** là đối tượng gồm các trường dữ liệu:
 - **originalImage**: ảnh liveness nguyên bản không màu
-- **attemptImage**: ảnh liveness với màu từ server
-- **images**: mảng các ảnh liveness với các màu truyền vào filterColors từ hàm **createLivenessDetector**
+- **images**: mảng các ảnh liveness tương ứng index với các màu truyền vào filterColors ở livenessMode
 
 ```swift
 func liveness(_ liveness: LivenessUtilityDetector, didFinishWithFaceImages images: LivenessFaceImages) {
     UIImageWriteToSavedPhotosAlbum(images.originalImage, nil, nil, nil)
-    UIImageWriteToSavedPhotosAlbum(images.attemptImage, nil, nil, nil)
     images.images?.forEach { image in
         UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
     }

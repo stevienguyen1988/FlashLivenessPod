@@ -303,14 +303,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-/// cách thức FlashLiveness online hoặc offline. Trả kết quả khác nhau ở delegate
-typedef SWIFT_ENUM(NSInteger, FlashLivenessMode, open) {
-/// mode online, khi thành công sẽ callback về <em>didFinishWithResult</em>
-  FlashLivenessModeOnline = 0,
-/// mode offline, khi thành công sẽ callback về <em>didFinishWithFaceImages</em>
-  FlashLivenessModeOffline = 1,
-};
-
 typedef SWIFT_ENUM(NSInteger, LivenessError, open) {
   LivenessErrorNoFaceDetected = 0,
   LivenessErrorSmallFace = 1,
@@ -333,9 +325,7 @@ SWIFT_CLASS("_TtC13FlashLiveness18LivenessFaceImages")
 /// ảnh nguyên bản sinh ra trong quá trình liveness
 @property (nonatomic, readonly, strong) UIImage * _Nonnull originalImage;
 /// ảnh màu random từ server trong quá trình liveness
-@property (nonatomic, readonly, strong) UIImage * _Nonnull attemptImage;
-/// màu được random từ server
-@property (nonatomic, readonly) NSInteger attemptColorCode;
+@property (nonatomic, readonly, strong) UIImage * _Nullable attemptImage;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -369,32 +359,9 @@ SWIFT_CLASS("_TtC13FlashLiveness14LivenessResult")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class UIView;
-@class UIColor;
-@protocol LivenessUtilityDetectorDelegate;
-@class LivenessUtilityDetector;
 
 SWIFT_CLASS("_TtC13FlashLiveness12LivenessUtil") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface LivenessUtil : NSObject
-/// khởi tạo một đối tượng LivenessUtilityDetector
-/// \param previewView phần view hiển thị liveness check
-///
-/// \param mode cách thức FlashLiveness online hoặc offline. Trả kết quả khác nhau ở delegate
-///
-/// \param filterColors mảng chứa các màu dùng để custom filter trong quá trình liveness, có thể truyền hoặc không. Nếu không truyền thì sẽ mặc định trả về delegate: ảnh nguyên bản và ảnh màu gen từ server. Nếu truyền thì sẽ trả về delegate ảnh nguyên bản, ảnh màu gen từ server và ảnh các màu được truyền vào.
-///
-/// \param debugging Có muốn xuất log ra hay không
-///
-/// \param delegate Gán các callback khi thực hiện liveness check
-///
-/// \param additionParam params cần truyền thêm theo yêu cầu riêng
-///
-/// \param additionHeader header cần truyền thêm theo yêu cầu riêng
-///
-///
-/// returns:
-/// đối tượng LivenessUtilityDetector
-+ (LivenessUtilityDetector * _Nonnull)createLivenessDetectorWithPreviewView:(UIView * _Nonnull)previewView mode:(enum FlashLivenessMode)mode filterColors:(NSArray<UIColor *> * _Nonnull)filterColors debugging:(BOOL)debugging delegate:(id <LivenessUtilityDetectorDelegate> _Nullable)delegate additionParam:(NSDictionary<NSString *, id> * _Nonnull)additionParam additionHeader:(NSDictionary<NSString *, NSString *> * _Nonnull)additionHeader SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
