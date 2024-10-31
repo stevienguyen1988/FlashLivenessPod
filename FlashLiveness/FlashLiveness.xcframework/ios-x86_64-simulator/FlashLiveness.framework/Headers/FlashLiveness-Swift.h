@@ -317,11 +317,14 @@ typedef SWIFT_ENUM(NSInteger, LivenessError, open) {
 static NSString * _Nonnull const LivenessErrorDomain = @"FlashLiveness.LivenessError";
 
 @class UIImage;
+@class UIColor;
 
 SWIFT_CLASS("_TtC13FlashLiveness18LivenessFaceImages")
 @interface LivenessFaceImages : NSObject
 /// mảng các images chứa màu truyền vào sinh ra trong quá trình liveness
 @property (nonatomic, copy) NSArray<UIImage *> * _Nullable images;
+/// mảng các màu truyền vào sinh ra trong quá trình liveness
+@property (nonatomic, copy) NSArray<UIColor *> * _Nullable colors;
 /// ảnh nguyên bản sinh ra trong quá trình liveness
 @property (nonatomic, readonly, strong) UIImage * _Nonnull originalImage;
 /// ảnh màu random từ server trong quá trình liveness

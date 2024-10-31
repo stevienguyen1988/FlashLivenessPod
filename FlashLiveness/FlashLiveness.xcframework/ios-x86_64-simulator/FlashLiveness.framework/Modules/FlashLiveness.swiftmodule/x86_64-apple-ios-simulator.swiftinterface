@@ -90,7 +90,7 @@ public struct MultipartRequest {
 }
 public enum FlashLivenessMode {
   case online(filterColors: [UIKit.UIColor]? = nil)
-  case offline(filterColors: [UIKit.UIColor]? = nil)
+  case offline(filterColors: [UIKit.UIColor]? = nil, frame: CoreFoundation.CGFloat = CGFloat.random(in: 60...240))
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class LivenessUtil : ObjectiveC.NSObject {
@@ -100,6 +100,7 @@ public enum FlashLivenessMode {
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImages : ObjectiveC.NSObject {
   @objc public var images: [UIKit.UIImage]?
+  @objc public var colors: [UIKit.UIColor]?
   @objc final public let originalImage: UIKit.UIImage
   @objc final public let attemptImage: UIKit.UIImage?
   final public let attemptColorCode: Swift.Int?
