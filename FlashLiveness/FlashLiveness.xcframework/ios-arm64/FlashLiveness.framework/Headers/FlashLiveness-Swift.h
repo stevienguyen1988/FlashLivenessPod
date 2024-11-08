@@ -316,24 +316,32 @@ typedef SWIFT_ENUM(NSInteger, LivenessError, open) {
 };
 static NSString * _Nonnull const LivenessErrorDomain = @"FlashLiveness.LivenessError";
 
-@class UIImage;
 @class UIColor;
+@class UIImage;
+@class NSURL;
+@class NSString;
 
-SWIFT_CLASS("_TtC13FlashLiveness18LivenessFaceImages")
-@interface LivenessFaceImages : NSObject
-/// mảng các images chứa màu truyền vào sinh ra trong quá trình liveness
-@property (nonatomic, copy) NSArray<UIImage *> * _Nullable images;
-/// mảng các màu truyền vào sinh ra trong quá trình liveness
-@property (nonatomic, copy) NSArray<UIColor *> * _Nullable colors;
-/// ảnh nguyên bản sinh ra trong quá trình liveness
-@property (nonatomic, readonly, strong) UIImage * _Nonnull originalImage;
-/// ảnh màu random từ server trong quá trình liveness
-@property (nonatomic, readonly, strong) UIImage * _Nullable attemptImage;
+SWIFT_CLASS("_TtC13FlashLiveness17LivenessFaceImage")
+@interface LivenessFaceImage : NSObject
+@property (nonatomic, readonly, strong) UIColor * _Nonnull color;
+@property (nonatomic, readonly, strong) UIImage * _Nonnull image;
+@property (nonatomic, readonly, copy) NSURL * _Nullable imagePath;
+@property (nonatomic, readonly, copy) NSString * _Nullable hexColorString;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSString;
+
+SWIFT_CLASS("_TtC13FlashLiveness18LivenessFaceImages")
+@interface LivenessFaceImages : NSObject
+/// mảng các images chứa màu truyền vào sinh ra trong quá trình liveness
+@property (nonatomic, copy) NSArray<LivenessFaceImage *> * _Nullable images;
+/// ảnh nguyên bản sinh ra trong quá trình liveness
+@property (nonatomic, readonly, strong) LivenessFaceImage * _Nonnull originalImage;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC13FlashLiveness16LivenessResponse")
 @interface LivenessResponse : NSObject
@@ -350,14 +358,15 @@ SWIFT_CLASS("_TtC13FlashLiveness14LivenessResult")
 @property (nonatomic) NSInteger status;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull data;
 @property (nonatomic, copy) NSString * _Nonnull signature;
-@property (nonatomic) float livenesScore;
-@property (nonatomic) float faceMatchingScore;
-@property (nonatomic) BOOL succes;
-@property (nonatomic) float sim;
+@property (nonatomic) double livenesScore;
+@property (nonatomic) double faceMatchingScore;
+@property (nonatomic) BOOL success;
+@property (nonatomic) double sim;
 @property (nonatomic, copy) NSString * _Nonnull livenessType;
 @property (nonatomic, copy) NSString * _Nonnull mess;
 @property (nonatomic, copy) NSString * _Nonnull code;
 @property (nonatomic, copy) NSString * _Nonnull request_id;
+@property (nonatomic) double faceMatchingResult;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -423,6 +432,7 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 - (void)initTransactionWithDuration:(NSInteger)duration additionParam:(NSDictionary<NSString *, id> * _Nonnull)additionParam paramHeader:(NSDictionary<NSString *, NSString *> * _Nonnull)paramHeader clientTransactionId:(NSString * _Nonnull)clientTransactionId completionHandler:(void (^ _Nonnull)(LivenessResponse * _Nullable, NSError * _Nullable))completionHandler SWIFT_METHOD_FAMILY(none);
 - (void)registerFaceWithFaceImage:(UIImage * _Nonnull)faceImage additionParam:(NSDictionary<NSString *, id> * _Nonnull)additionParam paramHeader:(NSDictionary<NSString *, NSString *> * _Nonnull)paramHeader completionHandler:(void (^ _Nonnull)(LivenessResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
+
 
 
 

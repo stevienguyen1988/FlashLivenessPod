@@ -98,12 +98,17 @@ public enum FlashLivenessMode {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImage : ObjectiveC.NSObject {
+  @objc final public let color: UIKit.UIColor
+  @objc final public let image: UIKit.UIImage
+  @objc final public let imagePath: Foundation.URL?
+  @objc final public let hexColorString: Swift.String?
+  final public let hexColorInt: Swift.Int?
+  @objc deinit
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImages : ObjectiveC.NSObject {
-  @objc public var images: [UIKit.UIImage]?
-  @objc public var colors: [UIKit.UIColor]?
-  @objc final public let originalImage: UIKit.UIImage
-  @objc final public let attemptImage: UIKit.UIImage?
-  final public let attemptColorCode: Swift.Int?
+  @objc public var images: [FlashLiveness.LivenessFaceImage]?
+  @objc final public let originalImage: FlashLiveness.LivenessFaceImage
   @objc deinit
 }
 @objc public protocol LivenessUtilityDetectorDelegate {
@@ -131,14 +136,15 @@ public enum FlashLivenessMode {
   @objc public var status: Swift.Int
   @objc public var data: [Swift.String : Any]
   @objc public var signature: Swift.String
-  @objc public var livenesScore: Swift.Float
-  @objc public var faceMatchingScore: Swift.Float
-  @objc public var succes: Swift.Bool
-  @objc public var sim: Swift.Float
+  @objc public var livenesScore: Swift.Double
+  @objc public var faceMatchingScore: Swift.Double
+  @objc public var success: Swift.Bool
+  @objc public var sim: Swift.Double
   @objc public var livenessType: Swift.String
   @objc public var mess: Swift.String
   @objc public var code: Swift.String
   @objc public var request_id: Swift.String
+  @objc public var faceMatchingResult: Swift.Double
   required public init?(map: ObjectMapper.Map)
   public func mapping(map: ObjectMapper.Map)
   @objc deinit

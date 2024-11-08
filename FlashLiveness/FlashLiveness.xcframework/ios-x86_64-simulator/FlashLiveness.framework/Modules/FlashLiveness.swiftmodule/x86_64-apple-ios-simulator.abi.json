@@ -2529,6 +2529,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "FlashLivenessMode",
         "printedName": "FlashLivenessMode",
@@ -2930,48 +2940,32 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "LivenessFaceImages",
-        "printedName": "LivenessFaceImages",
+        "name": "LivenessFaceImage",
+        "printedName": "LivenessFaceImage",
         "children": [
           {
             "kind": "Var",
-            "name": "images",
-            "printedName": "images",
+            "name": "color",
+            "printedName": "color",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[UIKit.UIImage]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[UIKit.UIImage]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)images",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvp",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(py)color",
+            "mangledName": "$s13FlashLiveness0B9FaceImageC5colorSo7UIColorCvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
-              "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl",
-              "RawDocComment",
               "ObjC"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -2981,246 +2975,28 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[UIKit.UIImage]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[UIKit.UIImage]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UIImage",
-                            "printedName": "UIKit.UIImage",
-                            "usr": "c:objc(cs)UIImage"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)images",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvg",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(im)color",
+                "mangledName": "$s13FlashLiveness0B9FaceImageC5colorSo7UIColorCvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
+                  "Final",
                   "ObjC"
                 ],
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[UIKit.UIImage]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[UIKit.UIImage]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UIImage",
-                            "printedName": "UIKit.UIImage",
-                            "usr": "c:objc(cs)UIImage"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)setImages:",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvs",
-                "moduleName": "FlashLiveness",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvM",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSaySo7UIImageCGSgvM",
-                "moduleName": "FlashLiveness",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "colors",
-            "printedName": "colors",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[UIKit.UIColor]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[UIKit.UIColor]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIColor",
-                        "printedName": "UIKit.UIColor",
-                        "usr": "c:objc(cs)UIColor"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)colors",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC6colorsSaySo7UIColorCGSgvp",
-            "moduleName": "FlashLiveness",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[UIKit.UIColor]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[UIKit.UIColor]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UIColor",
-                            "printedName": "UIKit.UIColor",
-                            "usr": "c:objc(cs)UIColor"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)colors",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC6colorsSaySo7UIColorCGSgvg",
-                "moduleName": "FlashLiveness",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[UIKit.UIColor]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[UIKit.UIColor]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "UIColor",
-                            "printedName": "UIKit.UIColor",
-                            "usr": "c:objc(cs)UIColor"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)setColors:",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC6colorsSaySo7UIColorCGSgvs",
-                "moduleName": "FlashLiveness",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FlashLiveness0B10FaceImagesC6colorsSaySo7UIColorCGSgvM",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC6colorsSaySo7UIColorCGSgvM",
-                "moduleName": "FlashLiveness",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "originalImage",
-            "printedName": "originalImage",
+            "name": "image",
+            "printedName": "image",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3230,14 +3006,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)originalImage",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC13originalImageSo7UIImageCvp",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(py)image",
+            "mangledName": "$s13FlashLiveness0B9FaceImageC5imageSo7UIImageCvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -3256,8 +3031,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)originalImage",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC13originalImageSo7UIImageCvg",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(im)image",
+                "mangledName": "$s13FlashLiveness0B9FaceImageC5imageSo7UIImageCvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -3270,33 +3045,32 @@
           },
           {
             "kind": "Var",
-            "name": "attemptImage",
-            "printedName": "attemptImage",
+            "name": "imagePath",
+            "printedName": "imagePath",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIImage?",
+                "printedName": "Foundation.URL?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)attemptImage",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC12attemptImageSo7UIImageCSgvp",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(py)imagePath",
+            "mangledName": "$s13FlashLiveness0B9FaceImageC9imagePath10Foundation3URLVSgvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "RawDocComment",
               "ObjC"
             ],
             "isLet": true,
@@ -3310,21 +3084,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
+                    "printedName": "Foundation.URL?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)attemptImage",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC12attemptImageSo7UIImageCSgvg",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(im)imagePath",
+                "mangledName": "$s13FlashLiveness0B9FaceImageC9imagePath10Foundation3URLVSgvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -3337,8 +3111,74 @@
           },
           {
             "kind": "Var",
-            "name": "attemptColorCode",
-            "printedName": "attemptColorCode",
+            "name": "hexColorString",
+            "printedName": "hexColorString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(py)hexColorString",
+            "mangledName": "$s13FlashLiveness0B9FaceImageC14hexColorStringSSSgvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(im)hexColorString",
+                "mangledName": "$s13FlashLiveness0B9FaceImageC14hexColorStringSSSgvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hexColorInt",
+            "printedName": "hexColorInt",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3356,14 +3196,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FlashLiveness0B10FaceImagesC16attemptColorCodeSiSgvp",
-            "mangledName": "$s13FlashLiveness0B10FaceImagesC16attemptColorCodeSiSgvp",
+            "usr": "s:13FlashLiveness0B9FaceImageC11hexColorIntSiSgvp",
+            "mangledName": "$s13FlashLiveness0B9FaceImageC11hexColorIntSiSgvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3389,12 +3228,317 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FlashLiveness0B10FaceImagesC16attemptColorCodeSiSgvg",
-                "mangledName": "$s13FlashLiveness0B10FaceImagesC16attemptColorCodeSiSgvg",
+                "usr": "s:13FlashLiveness0B9FaceImageC11hexColorIntSiSgvg",
+                "mangledName": "$s13FlashLiveness0B9FaceImageC11hexColorIntSiSgvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
                   "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessFaceImage",
+                "printedName": "FlashLiveness.LivenessFaceImage",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage(im)init",
+            "mangledName": "$s13FlashLiveness0B9FaceImageCACycfc",
+            "moduleName": "FlashLiveness",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage",
+        "mangledName": "$s13FlashLiveness0B9FaceImageC",
+        "moduleName": "FlashLiveness",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessFaceImages",
+        "printedName": "LivenessFaceImages",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "images",
+            "printedName": "images",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[FlashLiveness.LivenessFaceImage]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FlashLiveness.LivenessFaceImage]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessFaceImage",
+                        "printedName": "FlashLiveness.LivenessFaceImage",
+                        "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)images",
+            "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSayAA0bC5ImageCGSgvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[FlashLiveness.LivenessFaceImage]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[FlashLiveness.LivenessFaceImage]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LivenessFaceImage",
+                            "printedName": "FlashLiveness.LivenessFaceImage",
+                            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)images",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSayAA0bC5ImageCGSgvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[FlashLiveness.LivenessFaceImage]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[FlashLiveness.LivenessFaceImage]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LivenessFaceImage",
+                            "printedName": "FlashLiveness.LivenessFaceImage",
+                            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)setImages:",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSayAA0bC5ImageCGSgvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness0B10FaceImagesC6imagesSayAA0bC5ImageCGSgvM",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC6imagesSayAA0bC5ImageCGSgvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "originalImage",
+            "printedName": "originalImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessFaceImage",
+                "printedName": "FlashLiveness.LivenessFaceImage",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(py)originalImage",
+            "mangledName": "$s13FlashLiveness0B10FaceImagesC13originalImageAA0bcF0Cvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessFaceImage",
+                    "printedName": "FlashLiveness.LivenessFaceImage",
+                    "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessFaceImages(im)originalImage",
+                "mangledName": "$s13FlashLiveness0B10FaceImagesC13originalImageAA0bcF0Cvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
                 ],
                 "accessorKind": "get"
               }
@@ -4812,14 +4956,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(py)livenesScore",
-            "mangledName": "$s13FlashLiveness0B6ResultC12livenesScoreSfvp",
+            "mangledName": "$s13FlashLiveness0B6ResultC12livenesScoreSdvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "HasInitialValue",
@@ -4836,14 +4980,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)livenesScore",
-                "mangledName": "$s13FlashLiveness0B6ResultC12livenesScoreSfvg",
+                "mangledName": "$s13FlashLiveness0B6ResultC12livenesScoreSdvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -4863,14 +5007,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)setLivenesScore:",
-                "mangledName": "$s13FlashLiveness0B6ResultC12livenesScoreSfvs",
+                "mangledName": "$s13FlashLiveness0B6ResultC12livenesScoreSdvs",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -4890,8 +5034,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FlashLiveness0B6ResultC12livenesScoreSfvM",
-                "mangledName": "$s13FlashLiveness0B6ResultC12livenesScoreSfvM",
+                "usr": "s:13FlashLiveness0B6ResultC12livenesScoreSdvM",
+                "mangledName": "$s13FlashLiveness0B6ResultC12livenesScoreSdvM",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4905,14 +5049,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(py)faceMatchingScore",
-            "mangledName": "$s13FlashLiveness0B6ResultC17faceMatchingScoreSfvp",
+            "mangledName": "$s13FlashLiveness0B6ResultC17faceMatchingScoreSdvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "HasInitialValue",
@@ -4929,14 +5073,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)faceMatchingScore",
-                "mangledName": "$s13FlashLiveness0B6ResultC17faceMatchingScoreSfvg",
+                "mangledName": "$s13FlashLiveness0B6ResultC17faceMatchingScoreSdvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -4956,14 +5100,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)setFaceMatchingScore:",
-                "mangledName": "$s13FlashLiveness0B6ResultC17faceMatchingScoreSfvs",
+                "mangledName": "$s13FlashLiveness0B6ResultC17faceMatchingScoreSdvs",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -4983,8 +5127,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FlashLiveness0B6ResultC17faceMatchingScoreSfvM",
-                "mangledName": "$s13FlashLiveness0B6ResultC17faceMatchingScoreSfvM",
+                "usr": "s:13FlashLiveness0B6ResultC17faceMatchingScoreSdvM",
+                "mangledName": "$s13FlashLiveness0B6ResultC17faceMatchingScoreSdvM",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4993,8 +5137,8 @@
           },
           {
             "kind": "Var",
-            "name": "succes",
-            "printedName": "succes",
+            "name": "success",
+            "printedName": "success",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5004,8 +5148,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(py)succes",
-            "mangledName": "$s13FlashLiveness0B6ResultC6succesSbvp",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(py)success",
+            "mangledName": "$s13FlashLiveness0B6ResultC7successSbvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "HasInitialValue",
@@ -5028,8 +5172,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)succes",
-                "mangledName": "$s13FlashLiveness0B6ResultC6succesSbvg",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)success",
+                "mangledName": "$s13FlashLiveness0B6ResultC7successSbvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -5055,8 +5199,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)setSucces:",
-                "mangledName": "$s13FlashLiveness0B6ResultC6succesSbvs",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)setSuccess:",
+                "mangledName": "$s13FlashLiveness0B6ResultC7successSbvs",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -5076,8 +5220,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FlashLiveness0B6ResultC6succesSbvM",
-                "mangledName": "$s13FlashLiveness0B6ResultC6succesSbvM",
+                "usr": "s:13FlashLiveness0B6ResultC7successSbvM",
+                "mangledName": "$s13FlashLiveness0B6ResultC7successSbvM",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5091,14 +5235,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(py)sim",
-            "mangledName": "$s13FlashLiveness0B6ResultC3simSfvp",
+            "mangledName": "$s13FlashLiveness0B6ResultC3simSdvp",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "HasInitialValue",
@@ -5115,14 +5259,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)sim",
-                "mangledName": "$s13FlashLiveness0B6ResultC3simSfvg",
+                "mangledName": "$s13FlashLiveness0B6ResultC3simSdvg",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -5142,14 +5286,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)setSim:",
-                "mangledName": "$s13FlashLiveness0B6ResultC3simSfvs",
+                "mangledName": "$s13FlashLiveness0B6ResultC3simSdvs",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "declAttributes": [
@@ -5169,8 +5313,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FlashLiveness0B6ResultC3simSfvM",
-                "mangledName": "$s13FlashLiveness0B6ResultC3simSfvM",
+                "usr": "s:13FlashLiveness0B6ResultC3simSdvM",
+                "mangledName": "$s13FlashLiveness0B6ResultC3simSdvM",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5543,6 +5687,99 @@
                 "declKind": "Accessor",
                 "usr": "s:13FlashLiveness0B6ResultC10request_idSSvM",
                 "mangledName": "$s13FlashLiveness0B6ResultC10request_idSSvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceMatchingResult",
+            "printedName": "faceMatchingResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(py)faceMatchingResult",
+            "mangledName": "$s13FlashLiveness0B6ResultC012faceMatchingC0Sdvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)faceMatchingResult",
+                "mangledName": "$s13FlashLiveness0B6ResultC012faceMatchingC0Sdvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlashLiveness@objc(cs)LivenessResult(im)setFaceMatchingResult:",
+                "mangledName": "$s13FlashLiveness0B6ResultC012faceMatchingC0Sdvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness0B6ResultC012faceMatchingC0SdvM",
+                "mangledName": "$s13FlashLiveness0B6ResultC012faceMatchingC0SdvM",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6144,14 +6381,21 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 14173,
+      "offset": 14213,
       "length": 38,
       "value": "\"Điều chỉnh khuôn mặt thẳng\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 22682,
+      "offset": 23095,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
       "length": 2,
       "value": "\"\""
     },
@@ -6193,23 +6437,37 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 4644,
+      "offset": 4627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4680,
+      "offset": 4663,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4975,
+      "offset": 4958,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4631,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/DeviceManager.swift",
@@ -6263,58 +6521,65 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "FloatLiteral",
-      "offset": 844,
+      "offset": 845,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "FloatLiteral",
-      "offset": 889,
+      "offset": 891,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "BooleanLiteral",
-      "offset": 922,
+      "offset": 925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "FloatLiteral",
-      "offset": 955,
+      "offset": 959,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 1000,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1028,
+      "offset": 1032,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1060,
+      "offset": 1064,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1102,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "kind": "FloatLiteral",
+      "offset": 1149,
+      "length": 3,
+      "value": "0.0"
     }
   ]
 }
