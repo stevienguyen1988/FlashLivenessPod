@@ -89,12 +89,17 @@ public struct MultipartRequest {
   @objc deinit
 }
 public enum FlashLivenessMode {
-  case online(filterColors: [UIKit.UIColor]? = nil)
-  case offline(filterColors: [UIKit.UIColor]? = nil, frame: CoreFoundation.CGFloat = CGFloat.random(in: 60...240))
+  case online
+  case offline
+  public static func == (a: FlashLiveness.FlashLivenessMode, b: FlashLiveness.FlashLivenessMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class LivenessUtil : ObjectiveC.NSObject {
-  public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online(), debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
+  public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
   @objc override dynamic public init()
   @objc deinit
 }
@@ -102,8 +107,7 @@ public enum FlashLivenessMode {
   @objc final public let color: UIKit.UIColor
   @objc final public let image: UIKit.UIImage
   @objc final public let imagePath: Foundation.URL?
-  @objc final public let hexColorString: Swift.String?
-  final public let hexColorInt: Swift.Int?
+  @objc final public let colorString: Swift.String?
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImages : ObjectiveC.NSObject {
@@ -155,3 +159,5 @@ extension FlashLiveness.LivenessError : Swift.RawRepresentable {}
 extension FlashLiveness.LogLevel : Swift.Equatable {}
 extension FlashLiveness.LogLevel : Swift.Hashable {}
 extension FlashLiveness.LogLevel : Swift.RawRepresentable {}
+extension FlashLiveness.FlashLivenessMode : Swift.Equatable {}
+extension FlashLiveness.FlashLivenessMode : Swift.Hashable {}
