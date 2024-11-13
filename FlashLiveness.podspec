@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlashLiveness"
-  spec.version      = "1.1.5"
+  spec.version      = "1.1.6"
   spec.summary      = "A short description of FlashLiveness."
   spec.homepage     = "https://github.com/stevienguyen1988/FlashLiveness.git"
   spec.author           = { 'nhatnuoc' => 'binhvuong.2010@gmail.com' }
@@ -27,6 +27,8 @@ Pod::Spec.new do |spec|
 
   spec.source            = { :http => 'https://github.com/stevienguyen1988/FlashLivenessPod/releases/download/1.1.0/FlashLiveness.zip' }
   spec.vendored_frameworks = 'FlashLiveness/FlashLiveness.xcframework'
+spec.dependency "ObjectMapper", '~> 4.2'
+spec.dependency "KeychainSwift", '~> 19.0'
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'

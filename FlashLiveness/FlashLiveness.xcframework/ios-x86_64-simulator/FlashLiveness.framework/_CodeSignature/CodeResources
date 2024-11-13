@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>CryptoSwift.bundle/Info.plist</key>
-		<data>
-		d95rCCEtnRxfwaJCnqnlmZE0QL8=
-		</data>
-		<key>CryptoSwift.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		ucg9pita0v8d353x3NuGfxweQYU=
-		</data>
 		<key>Headers/FlashLiveness-Swift.h</key>
 		<data>
 		s/5i5mYePjFX+Stkl5CODay20nA=
@@ -38,7 +30,7 @@
 		</data>
 		<key>Modules/FlashLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ibC+SEX9Pk2Zrjqok7QYWWnn9es=
+		APed6jwA/TD+KlC3KB3UWhnvwOE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,20 +39,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>CryptoSwift.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9gTzKvQrp45v3V9E1PzC26wVoH0MxPwMW9BgCt4VRCM=
-			</data>
-		</dict>
-		<key>CryptoSwift.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
-			</data>
-		</dict>
 		<key>Headers/FlashLiveness-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -100,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aWZ9itqz55qppttul5Ljxq5GLg3gXPMzGFmVwP1F0iQ=
+			HSGc3jyKdmM/uUCx23znnkKqobDEUlrnndqEv6CHHck=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
