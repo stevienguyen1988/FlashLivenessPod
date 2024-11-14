@@ -2463,6 +2463,243 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FlashLivenessThreshold",
+        "printedName": "FlashLivenessThreshold",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "high",
+            "printedName": "high",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlashLiveness.FlashLivenessThreshold.Type) -> FlashLiveness.FlashLivenessThreshold",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlashLivenessThreshold",
+                    "printedName": "FlashLiveness.FlashLivenessThreshold",
+                    "usr": "s:13FlashLiveness0aB9ThresholdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlashLiveness.FlashLivenessThreshold.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlashLivenessThreshold",
+                        "printedName": "FlashLiveness.FlashLivenessThreshold",
+                        "usr": "s:13FlashLiveness0aB9ThresholdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13FlashLiveness0aB9ThresholdO4highyA2CmF",
+            "mangledName": "$s13FlashLiveness0aB9ThresholdO4highyA2CmF",
+            "moduleName": "FlashLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "medium",
+            "printedName": "medium",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlashLiveness.FlashLivenessThreshold.Type) -> FlashLiveness.FlashLivenessThreshold",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlashLivenessThreshold",
+                    "printedName": "FlashLiveness.FlashLivenessThreshold",
+                    "usr": "s:13FlashLiveness0aB9ThresholdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlashLiveness.FlashLivenessThreshold.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlashLivenessThreshold",
+                        "printedName": "FlashLiveness.FlashLivenessThreshold",
+                        "usr": "s:13FlashLiveness0aB9ThresholdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13FlashLiveness0aB9ThresholdO6mediumyA2CmF",
+            "mangledName": "$s13FlashLiveness0aB9ThresholdO6mediumyA2CmF",
+            "moduleName": "FlashLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "low",
+            "printedName": "low",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlashLiveness.FlashLivenessThreshold.Type) -> FlashLiveness.FlashLivenessThreshold",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlashLivenessThreshold",
+                    "printedName": "FlashLiveness.FlashLivenessThreshold",
+                    "usr": "s:13FlashLiveness0aB9ThresholdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlashLiveness.FlashLivenessThreshold.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlashLivenessThreshold",
+                        "printedName": "FlashLiveness.FlashLivenessThreshold",
+                        "usr": "s:13FlashLiveness0aB9ThresholdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13FlashLiveness0aB9ThresholdO3lowyA2CmF",
+            "mangledName": "$s13FlashLiveness0aB9ThresholdO3lowyA2CmF",
+            "moduleName": "FlashLiveness"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlashLivenessThreshold",
+                "printedName": "FlashLiveness.FlashLivenessThreshold",
+                "usr": "s:13FlashLiveness0aB9ThresholdO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlashLivenessThreshold",
+                "printedName": "FlashLiveness.FlashLivenessThreshold",
+                "usr": "s:13FlashLiveness0aB9ThresholdO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness0aB9ThresholdO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13FlashLiveness0aB9ThresholdO2eeoiySbAC_ACtFZ",
+            "moduleName": "FlashLiveness",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness0aB9ThresholdO9hashValueSivp",
+            "mangledName": "$s13FlashLiveness0aB9ThresholdO9hashValueSivp",
+            "moduleName": "FlashLiveness",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness0aB9ThresholdO9hashValueSivg",
+                "mangledName": "$s13FlashLiveness0aB9ThresholdO9hashValueSivg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness0aB9ThresholdO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13FlashLiveness0aB9ThresholdO4hash4intoys6HasherVz_tF",
+            "moduleName": "FlashLiveness",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13FlashLiveness0aB9ThresholdO",
+        "mangledName": "$s13FlashLiveness0aB9ThresholdO",
+        "moduleName": "FlashLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FlashLivenessMode",
         "printedName": "FlashLivenessMode",
         "children": [
@@ -2676,7 +2913,7 @@
           {
             "kind": "Function",
             "name": "createLivenessDetector",
-            "printedName": "createLivenessDetector(previewView:mode:debugging:delegate:additionParam:additionHeader:)",
+            "printedName": "createLivenessDetector(previewView:mode:threshold:debugging:delegate:additionParam:additionHeader:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2696,6 +2933,13 @@
                 "printedName": "FlashLiveness.FlashLivenessMode",
                 "hasDefaultArg": true,
                 "usr": "s:13FlashLiveness0aB4ModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlashLivenessThreshold",
+                "printedName": "FlashLiveness.FlashLivenessThreshold",
+                "hasDefaultArg": true,
+                "usr": "s:13FlashLiveness0aB9ThresholdO"
               },
               {
                 "kind": "TypeNominal",
@@ -2761,8 +3005,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9debugging8delegate13additionParam0K6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOSbAA0bnE8Delegate_pSgSDySSypGSDyS2SGtFZ",
-            "mangledName": "$s13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9debugging8delegate13additionParam0K6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOSbAA0bnE8Delegate_pSgSDySSypGSDyS2SGtFZ",
+            "usr": "s:13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9threshold9debugging8delegate13additionParam0L6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0boE8Delegate_pSgSDySSypGSDyS2SGtFZ",
+            "mangledName": "$s13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9threshold9debugging8delegate13additionParam0L6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0boE8Delegate_pSgSDySSypGSDyS2SGtFZ",
             "moduleName": "FlashLiveness",
             "static": true,
             "declAttributes": [
@@ -6194,84 +6438,84 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1384,
+      "offset": 1386,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1390,
+      "offset": 1392,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1400,
+      "offset": 1402,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1412,
+      "offset": 1414,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "FloatLiteral",
-      "offset": 1504,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1624,
+      "offset": 1585,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "kind": "Array",
+      "offset": 1638,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1779,
+      "offset": 1711,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1868,
+      "offset": 1800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3772,
+      "offset": 3797,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 7170,
+      "offset": 7195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 14314,
+      "offset": 14547,
       "length": 38,
       "value": "\"Điều chỉnh khuôn mặt thẳng\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 23351,
+      "offset": 24686,
       "length": 2,
       "value": "\"\""
     },
@@ -6292,56 +6536,56 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1685,
+      "offset": 2346,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Dictionary",
-      "offset": 1766,
+      "offset": 2427,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Dictionary",
-      "offset": 1805,
+      "offset": 2466,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 2190,
+      "offset": 2851,
       "length": 17,
       "value": "\"FlashLiveness.LivenessFaceImage\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 2768,
+      "offset": 3429,
       "length": 18,
       "value": "\"FlashLiveness.LivenessFaceImages\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 4625,
+      "offset": 5286,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4661,
+      "offset": 5322,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 4956,
+      "offset": 5617,
       "length": 2,
       "value": "\"\""
     },

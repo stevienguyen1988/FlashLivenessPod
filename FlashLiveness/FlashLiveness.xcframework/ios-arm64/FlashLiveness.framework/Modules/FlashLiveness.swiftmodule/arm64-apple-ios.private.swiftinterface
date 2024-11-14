@@ -93,6 +93,14 @@ public struct MultipartRequest {
   public class func clearStoredLogs()
   @objc deinit
 }
+public enum FlashLivenessThreshold {
+  case high, medium, low
+  public static func == (a: FlashLiveness.FlashLivenessThreshold, b: FlashLiveness.FlashLivenessThreshold) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum FlashLivenessMode {
   case online
   case offline
@@ -104,7 +112,7 @@ public enum FlashLivenessMode {
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class LivenessUtil : ObjectiveC.NSObject {
-  public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
+  public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, threshold: FlashLiveness.FlashLivenessThreshold = .high, debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
   @objc override dynamic public init()
   @objc deinit
 }
@@ -164,5 +172,7 @@ extension FlashLiveness.LivenessError : Swift.RawRepresentable {}
 extension FlashLiveness.LogLevel : Swift.Equatable {}
 extension FlashLiveness.LogLevel : Swift.Hashable {}
 extension FlashLiveness.LogLevel : Swift.RawRepresentable {}
+extension FlashLiveness.FlashLivenessThreshold : Swift.Equatable {}
+extension FlashLiveness.FlashLivenessThreshold : Swift.Hashable {}
 extension FlashLiveness.FlashLivenessMode : Swift.Equatable {}
 extension FlashLiveness.FlashLivenessMode : Swift.Hashable {}
