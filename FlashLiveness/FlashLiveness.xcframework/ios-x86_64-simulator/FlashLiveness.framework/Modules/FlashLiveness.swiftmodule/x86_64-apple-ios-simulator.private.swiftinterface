@@ -120,6 +120,7 @@ public enum FlashLivenessMode {
   @objc final public let color: UIKit.UIColor
   @objc final public let image: UIKit.UIImage
   @objc final public let imagePath: Foundation.URL?
+  @objc final public let imageBase64: Swift.String?
   @objc final public let colorString: Swift.String?
   @objc deinit
 }

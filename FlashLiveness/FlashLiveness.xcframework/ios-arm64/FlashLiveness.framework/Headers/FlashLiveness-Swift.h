@@ -322,6 +322,7 @@ SWIFT_CLASS("_TtC13FlashLiveness17LivenessFaceImage")
 @property (nonatomic, readonly, strong) UIColor * _Nonnull color;
 @property (nonatomic, readonly, strong) UIImage * _Nonnull image;
 @property (nonatomic, readonly, copy) NSURL * _Nullable imagePath;
+@property (nonatomic, readonly, copy) NSString * _Nullable imageBase64;
 @property (nonatomic, readonly, copy) NSString * _Nullable colorString;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
