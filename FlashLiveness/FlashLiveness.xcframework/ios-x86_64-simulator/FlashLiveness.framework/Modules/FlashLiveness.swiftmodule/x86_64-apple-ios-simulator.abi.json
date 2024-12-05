@@ -6560,28 +6560,28 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3290,
+      "offset": 3272,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 6533,
+      "offset": 6515,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 14969,
+      "offset": 18380,
       "length": 15,
       "value": "\"Nhìn thẳng\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 26357,
+      "offset": 29823,
       "length": 2,
       "value": "\"\""
     },

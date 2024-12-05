@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		u11WC1i8UYoWcbshc3SLQhn2BMU=
+		VZpUa7ElbJoxQ21c7+g9JKL9OHc=
 		</data>
 		<key>Modules/FlashLiveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Fhp1aSEwotegNSN0AEkEWSIJqR0=
+		3QDlvFol/OwVMIcVKFP9u6PimKw=
 		</data>
 		<key>Modules/FlashLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/FlashLiveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8/7vmG0ph23xQlEOF2MYWF6rUHg=
+		+DoDH14NCLvhBpWuDVn+NlZJ9Is=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M8dI6kwjg0M5GyH6I1+uxlHex7P0vJR5y5E2iWa89EM=
+			/4pUU5lOfTrCiOFLeegpzkXaofyKIdWH8ZyhLg31gYM=
 			</data>
 		</dict>
 		<key>Modules/FlashLiveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8BS1jMOdpzpK604Y4Brmi7Ay+y0FVV+riaLVYKg71sI=
+			HUC+livjT96QlYx6iIDXAs1+j5jxQSB3rhKv3+ANE0U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
