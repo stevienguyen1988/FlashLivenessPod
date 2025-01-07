@@ -6665,13 +6665,13 @@
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
       "offset": 25467,
-      "length": 15,
-      "value": "\"Nhìn thẳng\""
+      "length": 31,
+      "value": "\"Bạn vui lòng nhìn thẳng\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 36945,
+      "offset": 37109,
       "length": 2,
       "value": "\"\""
     },
@@ -6699,21 +6699,21 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 5373,
+      "offset": 5396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 5409,
+      "offset": 5432,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 5704,
+      "offset": 5727,
       "length": 2,
       "value": "\"\""
     },
