@@ -6593,85 +6593,92 @@
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 1004,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 877,
+      "offset": 1210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 883,
+      "offset": 1216,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 893,
+      "offset": 1226,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 905,
+      "offset": 1238,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1076,
+      "offset": 1409,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "Array",
-      "offset": 1129,
+      "offset": 1462,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1202,
+      "offset": 1535,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1291,
+      "offset": 1624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 3290,
+      "offset": 3623,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 6678,
+      "offset": 7011,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 25467,
+      "offset": 19814,
       "length": 31,
       "value": "\"Bạn vui lòng nhìn thẳng\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 37109,
+      "offset": 33922,
       "length": 2,
       "value": "\"\""
     },
