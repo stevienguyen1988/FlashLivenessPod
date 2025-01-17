@@ -188,10 +188,6 @@ extension FlashLiveness.LivenessUtilityDetector : AVFoundation.AVCaptureVideoDat
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
-@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-extension SwiftUICore.Color {
-  #warning("The "primary" color asset name resolves to a conflicting Color symbol "primary". Try renaming the asset.")
-}
 extension FlashLiveness.LivenessError : Swift.Equatable {}
 extension FlashLiveness.LivenessError : Swift.Hashable {}
 extension FlashLiveness.LivenessError : Swift.RawRepresentable {}

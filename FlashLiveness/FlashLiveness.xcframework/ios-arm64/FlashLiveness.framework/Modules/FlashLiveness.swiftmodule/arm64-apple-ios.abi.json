@@ -7241,7 +7241,7 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13975,
+      "offset": 13981,
       "length": 2,
       "value": "63"
     },
@@ -7682,49 +7682,49 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 913,
-      "length": 9,
-      "value": "\"primary\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1054,
+      "offset": 921,
       "length": 13,
       "value": "\"primaryText\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1064,
+      "length": 12,
+      "value": "\"processing\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1200,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1430,
+      "offset": 1439,
       "length": 10,
       "value": "\"bg_flash\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1576,
+      "offset": 1585,
       "length": 16,
       "value": "\"bg_flash_white\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1723,
+      "offset": 1732,
       "length": 13,
       "value": "\"img_loading\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1867,
+      "offset": 1876,
       "length": 13,
       "value": "\"img_success\""
     }
