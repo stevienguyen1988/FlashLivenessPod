@@ -849,6 +849,94 @@
         "printedName": "AdvancedStyleLivenessMaskView",
         "children": [
           {
+            "kind": "Var",
+            "name": "areaViewFrame",
+            "printedName": "areaViewFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness013AdvancedStyleB8MaskViewC04areaF5FrameSo6CGRectVvp",
+            "mangledName": "$s13FlashLiveness013AdvancedStyleB8MaskViewC04areaF5FrameSo6CGRectVvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness013AdvancedStyleB8MaskViewC04areaF5FrameSo6CGRectVvg",
+                "mangledName": "$s13FlashLiveness013AdvancedStyleB8MaskViewC04areaF5FrameSo6CGRectVvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness013AdvancedStyleB8MaskViewC04areaF5FrameSo6CGRectVvs",
+                "mangledName": "$s13FlashLiveness013AdvancedStyleB8MaskViewC04areaF5FrameSo6CGRectVvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness013AdvancedStyleB8MaskViewC04areaF5FrameSo6CGRectVvM",
+                "mangledName": "$s13FlashLiveness013AdvancedStyleB8MaskViewC04areaF5FrameSo6CGRectVvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "draw",
             "printedName": "draw(_:)",
@@ -7241,7 +7329,7 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13981,
+      "offset": 13988,
       "length": 2,
       "value": "63"
     },
