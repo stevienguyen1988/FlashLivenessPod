@@ -280,8 +280,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
+@import CoreFoundation;
+@import CoreMedia;
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -303,6 +307,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
+
+SWIFT_CLASS("_TtC13FlashLiveness29AdvancedStyleLivenessMaskView")
+@interface AdvancedStyleLivenessMaskView : UIView
+- (void)drawRect:(CGRect)rect;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 typedef SWIFT_ENUM(NSInteger, LivenessError, open) {
   LivenessErrorNoFaceDetected = 0,
   LivenessErrorSmallFace = 1,
@@ -380,17 +393,26 @@ SWIFT_CLASS("_TtC13FlashLiveness12LivenessUtil") SWIFT_AVAILABILITY(ios,introduc
 
 
 /// đối tượng thực thi chính của SDK FlashLiveness
-SWIFT_CLASS("_TtC13FlashLiveness23LivenessUtilityDetector")
+SWIFT_CLASS("_TtC13FlashLiveness23LivenessUtilityDetector") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @interface LivenessUtilityDetector : NSObject
 /// Khi view bắt đầu hiện ra thì gọi hàm này ở <em>viewWillAppear</em> để thực hiện việc liveness check. Lúc này sẽ thực hiện truyền <em>transactionId</em> vào.
 - (BOOL)getVerificationRequiresAndStartSessionWithTransactionId:(NSString * _Nonnull)transactionId error:(NSError * _Nullable * _Nullable)error;
 /// gọi hàm này ở <em>viewWillDisappear</em> hoặc <em>deinit</em>
 - (void)stopLiveness;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class AVCaptureOutput;
+@class AVCaptureConnection;
+
+SWIFT_AVAILABILITY(ios,introduced=13.0)
+@interface LivenessUtilityDetector (SWIFT_EXTENSION(FlashLiveness)) <AVCaptureVideoDataOutputSampleBufferDelegate>
+- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
 @end
 
 
-SWIFT_PROTOCOL("_TtP13FlashLiveness31LivenessUtilityDetectorDelegate_")
+SWIFT_PROTOCOL("_TtP13FlashLiveness31LivenessUtilityDetectorDelegate_") SWIFT_AVAILABILITY(ios,introduced=13.0)
 @protocol LivenessUtilityDetectorDelegate
 @optional
 /// hàm được gọi khi liveness bị lỗi
@@ -433,6 +455,12 @@ SWIFT_AVAILABILITY(ios,introduced=13.0)
 - (void)initTransactionWithDuration:(NSInteger)duration additionParam:(NSDictionary<NSString *, id> * _Nonnull)additionParam paramHeader:(NSDictionary<NSString *, NSString *> * _Nonnull)paramHeader clientTransactionId:(NSString * _Nonnull)clientTransactionId completionHandler:(void (^ _Nonnull)(LivenessResponse * _Nullable, NSError * _Nullable))completionHandler SWIFT_METHOD_FAMILY(none);
 - (void)registerFaceWithFaceImage:(UIImage * _Nonnull)faceImage additionParam:(NSDictionary<NSString *, id> * _Nonnull)additionParam paramHeader:(NSDictionary<NSString *, NSString *> * _Nonnull)paramHeader completionHandler:(void (^ _Nonnull)(LivenessResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
+
+
+
+
+
+
 
 
 

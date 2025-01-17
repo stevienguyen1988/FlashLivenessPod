@@ -3,11 +3,13 @@
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FlashLiveness
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
+import DeveloperToolsSupport
 import Foundation
 import KeychainSwift
 import ObjectMapper
 import SignManager
 import Swift
+import SwiftUI
 import UIKit
 import Vision
 import _Concurrency
@@ -39,6 +41,16 @@ public struct MultipartRequest {
   public var httpBody: Foundation.Data {
     get
   }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AdvancedStyleLivenessMaskView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency public func showSuccess(title: Swift.String?, description: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency public func showError(title: Swift.String?, description: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency public func showDetected(title: Swift.String?, description: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency public func showProgress(title: Swift.String?, description: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 @objc public enum LivenessError : Swift.Int, Swift.Error {
   case noFaceDetected
@@ -88,6 +100,15 @@ public struct MultipartRequest {
   public class func clearStoredLogs()
   @objc deinit
 }
+public enum LivenessUIStyle {
+  case basic
+  case advanced
+  public static func == (a: FlashLiveness.LivenessUIStyle, b: FlashLiveness.LivenessUIStyle) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum FlashLivenessThreshold {
   case high, medium, low
   public static func == (a: FlashLiveness.FlashLivenessThreshold, b: FlashLiveness.FlashLivenessThreshold) -> Swift.Bool
@@ -107,7 +128,7 @@ public enum FlashLivenessMode {
 }
 @_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc public class LivenessUtil : ObjectiveC.NSObject {
-  public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, threshold: FlashLiveness.FlashLivenessThreshold = .high, debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
+  public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, threshold: FlashLiveness.FlashLivenessThreshold = .high, debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, uiStyle: FlashLiveness.LivenessUIStyle = .basic, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
   @objc override dynamic public init()
   @objc deinit
 }
@@ -124,18 +145,23 @@ public enum FlashLivenessMode {
   @objc final public let originalImage: FlashLiveness.LivenessFaceImage
   @objc deinit
 }
+@available(iOS 13.0, *)
 @objc public protocol LivenessUtilityDetectorDelegate {
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFail withError: FlashLiveness.LivenessError)
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishUploadWithResult result: [Swift.String : Any])
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishWithResult result: FlashLiveness.LivenessResult)
   @objc optional func liveness(_ liveness: FlashLiveness.LivenessUtilityDetector, didFinishWithFaceImages images: FlashLiveness.LivenessFaceImages)
 }
-@_inheritsConvenienceInitializers @objc public class LivenessUtilityDetector : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+@objc public class LivenessUtilityDetector : ObjectiveC.NSObject {
   weak public var delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?
   @objc public func getVerificationRequiresAndStartSession(transactionId: Swift.String = "") throws
   @objc public func stopLiveness()
-  @objc override dynamic public init()
   @objc deinit
+}
+@available(iOS 13.0, *)
+extension FlashLiveness.LivenessUtilityDetector : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
 }
 @objc @objcMembers public class LivenessResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
   @objc public var status: Swift.Int
@@ -162,12 +188,18 @@ public enum FlashLivenessMode {
   public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
+@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+extension SwiftUICore.Color {
+  #warning("The "primary" color asset name resolves to a conflicting Color symbol "primary". Try renaming the asset.")
+}
 extension FlashLiveness.LivenessError : Swift.Equatable {}
 extension FlashLiveness.LivenessError : Swift.Hashable {}
 extension FlashLiveness.LivenessError : Swift.RawRepresentable {}
 extension FlashLiveness.LogLevel : Swift.Equatable {}
 extension FlashLiveness.LogLevel : Swift.Hashable {}
 extension FlashLiveness.LogLevel : Swift.RawRepresentable {}
+extension FlashLiveness.LivenessUIStyle : Swift.Equatable {}
+extension FlashLiveness.LivenessUIStyle : Swift.Hashable {}
 extension FlashLiveness.FlashLivenessThreshold : Swift.Equatable {}
 extension FlashLiveness.FlashLivenessThreshold : Swift.Hashable {}
 extension FlashLiveness.FlashLivenessMode : Swift.Equatable {}
