@@ -30,6 +30,7 @@ Pod::Spec.new do |spec|
 spec.dependency "ObjectMapper", '~> 4.2'
 spec.dependency "KeychainSwift", '~> 19.0'
 spec.dependency "SignManager", '~> 1.0.6'
+spec.dependency 'lottie-ios', '~> 4.5.1'
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
