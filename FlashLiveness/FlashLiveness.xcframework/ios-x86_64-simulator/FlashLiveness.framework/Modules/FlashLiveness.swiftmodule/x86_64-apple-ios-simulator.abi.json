@@ -844,6 +844,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AdvancedStyleLivenessMaskView",
         "printedName": "AdvancedStyleLivenessMaskView",
@@ -1121,8 +1128,8 @@
           },
           {
             "kind": "Function",
-            "name": "showProgress",
-            "printedName": "showProgress(title:description:)",
+            "name": "showProcessing",
+            "printedName": "showProcessing(title:description:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1159,8 +1166,58 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13FlashLiveness013AdvancedStyleB8MaskViewC12showProgress5title11descriptionySSSg_AGtF",
-            "mangledName": "$s13FlashLiveness013AdvancedStyleB8MaskViewC12showProgress5title11descriptionySSSg_AGtF",
+            "usr": "s:13FlashLiveness013AdvancedStyleB8MaskViewC14showProcessing5title11descriptionySSSg_AGtF",
+            "mangledName": "$s13FlashLiveness013AdvancedStyleB8MaskViewC14showProcessing5title11descriptionySSSg_AGtF",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDetecting",
+            "printedName": "showDetecting(title:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness013AdvancedStyleB8MaskViewC13showDetecting5title11descriptionySSSg_AGtF",
+            "mangledName": "$s13FlashLiveness013AdvancedStyleB8MaskViewC13showDetecting5title11descriptionySSSg_AGtF",
             "moduleName": "FlashLiveness",
             "declAttributes": [
               "Preconcurrency",
@@ -7315,21 +7372,28 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessView.swift",
       "kind": "StringLiteral",
-      "offset": 587,
+      "offset": 601,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessView.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 990,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19124,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13988,
+      "offset": 20151,
       "length": 2,
       "value": "63"
     },
@@ -7490,7 +7554,7 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/BasicStyleLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 9063,
+      "offset": 9112,
       "length": 2,
       "value": "\"\""
     },
@@ -7574,7 +7638,7 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 25867,
+      "offset": 25857,
       "length": 31,
       "value": "\"Bạn vui lòng nhìn thẳng\""
     },

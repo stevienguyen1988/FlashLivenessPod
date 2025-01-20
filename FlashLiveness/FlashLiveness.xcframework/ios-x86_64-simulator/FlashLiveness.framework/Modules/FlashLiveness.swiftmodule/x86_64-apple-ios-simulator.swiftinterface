@@ -6,6 +6,7 @@ import AVFoundation
 import DeveloperToolsSupport
 import Foundation
 import KeychainSwift
+import Lottie
 import ObjectMapper
 import SignManager
 import Swift
@@ -48,7 +49,8 @@ public struct MultipartRequest {
   @_Concurrency.MainActor @preconcurrency public func showSuccess(title: Swift.String?, description: Swift.String?)
   @_Concurrency.MainActor @preconcurrency public func showError(title: Swift.String?, description: Swift.String?)
   @_Concurrency.MainActor @preconcurrency public func showDetected(title: Swift.String?, description: Swift.String?)
-  @_Concurrency.MainActor @preconcurrency public func showProgress(title: Swift.String?, description: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency public func showProcessing(title: Swift.String?, description: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency public func showDetecting(title: Swift.String?, description: Swift.String?)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
