@@ -23,14 +23,14 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   
   spec.platform = :ios
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "11.0"
 
   spec.source            = { :http => 'https://github.com/stevienguyen1988/FlashLivenessPod/releases/download/1.1.0/FlashLiveness.zip' }
   spec.vendored_frameworks = 'FlashLiveness/FlashLiveness.xcframework'
 spec.dependency "ObjectMapper", '~> 4.2'
 spec.dependency "KeychainSwift", '~> 19.0'
 spec.dependency "SignManager", '~> 1.0.6'
-spec.dependency 'lottie-ios', '~> 4.5.1'
+spec.dependency 'lottie-ios', '~> 4.4.1'
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
