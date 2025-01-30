@@ -7543,22 +7543,71 @@
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1202,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1281,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "StringLiteral",
+      "offset": 1780,
+      "length": 37,
+      "value": "\"So khớp khuôn mặt thành công\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1896,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2047,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
       "kind": "FloatLiteral",
-      "offset": 6554,
+      "offset": 8067,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
       "kind": "FloatLiteral",
-      "offset": 6578,
+      "offset": 8091,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8231,
+      "offset": 9744,
       "length": 1,
       "value": "0"
     },
@@ -8201,57 +8250,8 @@
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 630,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 670,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 758,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 929,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1257,
-      "length": 37,
-      "value": "\"So khớp khuôn mặt thành công\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1373,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1524,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 4371,
+      "offset": 2838,
       "length": 31,
       "value": "\"Bạn vui lòng nhìn thẳng\""
     },
