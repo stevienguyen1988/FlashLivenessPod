@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlashLiveness"
-  spec.version      = "1.1.18"
+  spec.version      = "1.2.3"
   spec.summary      = "A short description of FlashLiveness."
   spec.homepage     = "https://github.com/stevienguyen1988/FlashLiveness.git"
   spec.author           = { 'nhatnuoc' => 'binhvuong.2010@gmail.com' }

@@ -6,6 +6,948 @@
     "children": [
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdvancedLivenessMaskView",
+        "printedName": "AdvancedLivenessMaskView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instructionText",
+            "printedName": "instructionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC15instructionTextSSSgvp",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC15instructionTextSSSgvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC15instructionTextSSSgvg",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC15instructionTextSSSgvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC15instructionTextSSSgvs",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC15instructionTextSSSgvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC15instructionTextSSSgvM",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC15instructionTextSSSgvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewFrame",
+            "printedName": "previewFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC12previewFrameSo6CGRectVvp",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC12previewFrameSo6CGRectVvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC12previewFrameSo6CGRectVvg",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC12previewFrameSo6CGRectVvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC12previewFrameSo6CGRectVvs",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC12previewFrameSo6CGRectVvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC12previewFrameSo6CGRectVvM",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC12previewFrameSo6CGRectVvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "processingOvalBorderColor",
+            "printedName": "processingOvalBorderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC25processingOvalBorderColorSo7UIColorCvp",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC25processingOvalBorderColorSo7UIColorCvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC25processingOvalBorderColorSo7UIColorCvg",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC25processingOvalBorderColorSo7UIColorCvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC25processingOvalBorderColorSo7UIColorCvs",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC25processingOvalBorderColorSo7UIColorCvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC25processingOvalBorderColorSo7UIColorCvM",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC25processingOvalBorderColorSo7UIColorCvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorOvalBorderColor",
+            "printedName": "errorOvalBorderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC20errorOvalBorderColorSo7UIColorCvp",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC20errorOvalBorderColorSo7UIColorCvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC20errorOvalBorderColorSo7UIColorCvg",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC20errorOvalBorderColorSo7UIColorCvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC20errorOvalBorderColorSo7UIColorCvs",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC20errorOvalBorderColorSo7UIColorCvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC20errorOvalBorderColorSo7UIColorCvM",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC20errorOvalBorderColorSo7UIColorCvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "normalOvalBorderColor",
+            "printedName": "normalOvalBorderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC21normalOvalBorderColorSo7UIColorCvp",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC21normalOvalBorderColorSo7UIColorCvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC21normalOvalBorderColorSo7UIColorCvg",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC21normalOvalBorderColorSo7UIColorCvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC21normalOvalBorderColorSo7UIColorCvs",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC21normalOvalBorderColorSo7UIColorCvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC21normalOvalBorderColorSo7UIColorCvM",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC21normalOvalBorderColorSo7UIColorCvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "processingAnimDuration",
+            "printedName": "processingAnimDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC22processingAnimDurationSdvp",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC22processingAnimDurationSdvp",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC22processingAnimDurationSdvg",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC22processingAnimDurationSdvg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC22processingAnimDurationSdvs",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC22processingAnimDurationSdvs",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness08AdvancedB8MaskViewC22processingAnimDurationSdvM",
+                "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC22processingAnimDurationSdvM",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FlashLiveness@objc(cs)AdvancedLivenessMaskView(im)drawRect:",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC4drawyySo6CGRectVF",
+            "moduleName": "FlashLiveness",
+            "overriding": true,
+            "objc_name": "drawRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdvancedLivenessMaskView",
+                "printedName": "FlashLiveness.AdvancedLivenessMaskView",
+                "usr": "c:@M@FlashLiveness@objc(cs)AdvancedLivenessMaskView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FlashLiveness@objc(cs)AdvancedLivenessMaskView(im)initWithFrame:",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "FlashLiveness",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlashLiveness.AdvancedLivenessMaskView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdvancedLivenessMaskView",
+                    "printedName": "FlashLiveness.AdvancedLivenessMaskView",
+                    "usr": "c:@M@FlashLiveness@objc(cs)AdvancedLivenessMaskView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FlashLiveness@objc(cs)AdvancedLivenessMaskView(im)initWithCoder:",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "FlashLiveness",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showError",
+            "printedName": "showError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC9showErroryySSF",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC9showErroryySSF",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDetected",
+            "printedName": "showDetected(_:step:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC12showDetected_4stepySSSg_SitF",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC12showDetected_4stepySSSg_SitF",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showProcessing",
+            "printedName": "showProcessing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC14showProcessingyySSSgF",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC14showProcessingyySSSgF",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMessage",
+            "printedName": "showMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC11showMessageyySSF",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC11showMessageyySSF",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSuccess",
+            "printedName": "showSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness08AdvancedB8MaskViewC11showSuccessyySSF",
+            "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC11showSuccessyySSF",
+            "moduleName": "FlashLiveness",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FlashLiveness@objc(cs)AdvancedLivenessMaskView",
+        "mangledName": "$s13FlashLiveness08AdvancedB8MaskViewC",
+        "moduleName": "FlashLiveness",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2513,19 +3455,240 @@
       },
       {
         "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "FlashLiveness"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FlashLiveness",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessUIStyle",
+        "printedName": "LivenessUIStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "basic",
+            "printedName": "basic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlashLiveness.LivenessUIStyle.Type) -> FlashLiveness.LivenessUIStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessUIStyle",
+                    "printedName": "FlashLiveness.LivenessUIStyle",
+                    "usr": "s:13FlashLiveness0B7UIStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlashLiveness.LivenessUIStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessUIStyle",
+                        "printedName": "FlashLiveness.LivenessUIStyle",
+                        "usr": "s:13FlashLiveness0B7UIStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13FlashLiveness0B7UIStyleO5basicyA2CmF",
+            "mangledName": "$s13FlashLiveness0B7UIStyleO5basicyA2CmF",
+            "moduleName": "FlashLiveness"
+          },
+          {
+            "kind": "Var",
+            "name": "advanced",
+            "printedName": "advanced",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FlashLiveness.LivenessUIStyle.Type) -> FlashLiveness.LivenessUIStyle",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessUIStyle",
+                    "printedName": "FlashLiveness.LivenessUIStyle",
+                    "usr": "s:13FlashLiveness0B7UIStyleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FlashLiveness.LivenessUIStyle.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessUIStyle",
+                        "printedName": "FlashLiveness.LivenessUIStyle",
+                        "usr": "s:13FlashLiveness0B7UIStyleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13FlashLiveness0B7UIStyleO8advancedyA2CmF",
+            "mangledName": "$s13FlashLiveness0B7UIStyleO8advancedyA2CmF",
+            "moduleName": "FlashLiveness"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessUIStyle",
+                "printedName": "FlashLiveness.LivenessUIStyle",
+                "usr": "s:13FlashLiveness0B7UIStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessUIStyle",
+                "printedName": "FlashLiveness.LivenessUIStyle",
+                "usr": "s:13FlashLiveness0B7UIStyleO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness0B7UIStyleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13FlashLiveness0B7UIStyleO2eeoiySbAC_ACtFZ",
+            "moduleName": "FlashLiveness",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlashLiveness0B7UIStyleO9hashValueSivp",
+            "mangledName": "$s13FlashLiveness0B7UIStyleO9hashValueSivp",
+            "moduleName": "FlashLiveness",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlashLiveness0B7UIStyleO9hashValueSivg",
+                "mangledName": "$s13FlashLiveness0B7UIStyleO9hashValueSivg",
+                "moduleName": "FlashLiveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlashLiveness0B7UIStyleO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13FlashLiveness0B7UIStyleO4hash4intoys6HasherVz_tF",
+            "moduleName": "FlashLiveness",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13FlashLiveness0B7UIStyleO",
+        "mangledName": "$s13FlashLiveness0B7UIStyleO",
+        "moduleName": "FlashLiveness",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
         ]
       },
       {
@@ -3008,7 +4171,7 @@
           {
             "kind": "Function",
             "name": "createLivenessDetector",
-            "printedName": "createLivenessDetector(previewView:mode:threshold:debugging:delegate:additionParam:additionHeader:)",
+            "printedName": "createLivenessDetector(previewView:mode:threshold:debugging:delegate:uiStyle:additionParam:additionHeader:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3059,6 +4222,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "LivenessUIStyle",
+                "printedName": "FlashLiveness.LivenessUIStyle",
+                "hasDefaultArg": true,
+                "usr": "s:13FlashLiveness0B7UIStyleO"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Dictionary",
                 "printedName": "[Swift.String : Any]",
                 "children": [
@@ -3100,8 +4270,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9threshold9debugging8delegate13additionParam0L6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0boE8Delegate_pSgSDySSypGSDyS2SGtFZ",
-            "mangledName": "$s13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9threshold9debugging8delegate13additionParam0L6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0boE8Delegate_pSgSDySSypGSDyS2SGtFZ",
+            "usr": "s:13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9threshold9debugging8delegate7uiStyle13additionParam0N6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0bqE8Delegate_pSgAA0B7UIStyleOSDySSypGSDyS2SGtFZ",
+            "mangledName": "$s13FlashLiveness0B4UtilC06createB8Detector11previewView4mode9threshold9debugging8delegate7uiStyle13additionParam0N6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0bqE8Delegate_pSgAA0B7UIStyleOSDySSypGSDyS2SGtFZ",
             "moduleName": "FlashLiveness",
             "static": true,
             "declAttributes": [
@@ -4110,9 +5280,11 @@
         "moduleName": "FlashLiveness",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
+        "intro_iOS": "13.0",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "Available"
         ],
         "conformances": [
           {
@@ -4235,6 +5407,10 @@
                 "mangledName": "$s13FlashLiveness0B15UtilityDetectorC8delegateAA0bcD8Delegate_pSgvM",
                 "moduleName": "FlashLiveness",
                 "implicit": true,
+                "intro_iOS": "13.0",
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -4309,27 +5485,71 @@
             "mangledName": "$s13FlashLiveness0B15UtilityDetectorCACycfc",
             "moduleName": "FlashLiveness",
             "overriding": true,
+            "implicit": true,
             "objc_name": "init",
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Override",
-              "AccessControl"
+              "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlashLiveness@objc(cs)LivenessUtilityDetector(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s13FlashLiveness0B15UtilityDetectorC13captureOutput_03didF04fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0I10ConnectionCtF",
+            "moduleName": "FlashLiveness",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
         "usr": "c:@M@FlashLiveness@objc(cs)LivenessUtilityDetector",
         "mangledName": "$s13FlashLiveness0B15UtilityDetectorC",
         "moduleName": "FlashLiveness",
+        "intro_iOS": "13.0",
         "declAttributes": [
           "AccessControl",
+          "Available",
           "ObjC",
           "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
         ],
@@ -6250,11 +7470,98 @@
             "mangledName": "$s12ObjectMapper12BaseMappableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "FlashLiveness"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 29,
+      "value": "\"ovalBorderProcessingAnimKey\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 919,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6554,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6578,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedLivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8231,
+      "length": 1,
+      "value": "0"
+    },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
@@ -6592,151 +7899,137 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "FloatLiteral",
-      "offset": 1004,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/BasicStyleLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1210,
+      "offset": 297,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/BasicStyleLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1216,
+      "offset": 303,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/BasicStyleLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1226,
+      "offset": 313,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/BasicStyleLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1238,
+      "offset": 325,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/BasicStyleLivenessDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1409,
+      "offset": 446,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "Array",
-      "offset": 1462,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1535,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1624,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "FloatLiteral",
-      "offset": 1833,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3656,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "FloatLiteral",
-      "offset": 3682,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/BasicStyleLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 7112,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 19915,
+      "offset": 2862,
       "length": 31,
       "value": "\"Bạn vui lòng nhìn thẳng\""
     },
     {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/BasicStyleLivenessDetector.swift",
       "kind": "StringLiteral",
-      "offset": 34023,
+      "offset": 9112,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 2347,
+      "offset": 2447,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Dictionary",
-      "offset": 2428,
+      "offset": 2563,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Dictionary",
-      "offset": 2467,
+      "offset": 2602,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "kind": "Array",
+      "offset": 6117,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6190,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 5396,
+      "offset": 6279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 5432,
+      "offset": 8431,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 8708,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 5727,
+      "offset": 9095,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10812,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 25857,
+      "length": 31,
+      "value": "\"Bạn vui lòng nhìn thẳng\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/Extension.swift",
@@ -6870,6 +8163,167 @@
       "offset": 1149,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 352,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 670,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 929,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 37,
+      "value": "\"So khớp khuôn mặt thành công\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1373,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1524,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/AdvancedStyleLivenessDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 4371,
+      "length": 31,
+      "value": "\"Bạn vui lòng nhìn thẳng\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 747,
+      "length": 8,
+      "value": "\"normal\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 899,
+      "length": 20,
+      "value": "\"oval_border_normal\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 13,
+      "value": "\"primaryText\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1194,
+      "length": 12,
+      "value": "\"processing\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
+      "length": 10,
+      "value": "\"bg_flash\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1715,
+      "length": 16,
+      "value": "\"bg_flash_white\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1862,
+      "length": 13,
+      "value": "\"img_loading\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-ccxlgtfzcnkcurcnukoctynnrvak\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphoneos\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2006,
+      "length": 13,
+      "value": "\"img_success\""
     }
   ]
 }
