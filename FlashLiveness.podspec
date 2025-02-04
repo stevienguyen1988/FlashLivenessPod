@@ -16,16 +16,16 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlashLiveness"
-  spec.version      = "1.2.9"
+  spec.version      = "1.3.0"
   spec.summary      = "A short description of FlashLiveness."
-  spec.homepage     = "https://github.com/stevienguyen1988/FlashLivenessPod.git"
+  spec.homepage     = "https://github.com/stevienguyen1988/FlashLiveness.git"
   spec.author           = { 'nhatnuoc' => 'binhvuong.2010@gmail.com' }
   spec.license      = "MIT"
   
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source            = { :http => 'https://github.com/stevienguyen1988/FlashLivenessPod/releases/download/1.2.9/FlashLiveness.zip' }
+  spec.source            = { :http => 'https://github.com/stevienguyen1988/FlashLivenessPod/releases/download/1.3.0/FlashLiveness.zip' }
   spec.vendored_frameworks = 'FlashLiveness/FlashLiveness.xcframework'
 spec.dependency "ObjectMapper", '~> 4.2'
 spec.dependency "KeychainSwift", '~> 19.0'
