@@ -30,6 +30,12 @@ Pod::Spec.new do |spec|
 spec.dependency "ObjectMapper", '~> 4.2'
 spec.dependency "KeychainSwift", '~> 19.0'
 spec.dependency "SignManager", '~> 1.0.6'
+  spec.subspec 'NDA' do |nda|
+      spec.dependency "ObjectMapper", '~> 4.2'
+        spec.dependency "KeychainSwift", '~> 19.0'
+        spec.dependency "SignManager", '~> 1.0.6'
+      spec.vendored_frameworks = "NDA/FlashLiveness.xcframework"
+  end
 
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
