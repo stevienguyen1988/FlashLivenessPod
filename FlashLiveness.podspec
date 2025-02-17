@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
     nda.dependency "ObjectMapper", '~> 4.2'
     nda.dependency "KeychainSwift", '~> 19.0'
     nda.dependency "SignManager", '~> 1.0.6'
-    nda.dependency 'LivenessMask/NDA', :git => 'https://github.com/nhatnuoc/liveness-mask-view-pod.git', :tag => 'v1.0.0'
+    nda.dependency 'LivenessMask/NDA', '~> 1.0.0'
     nda.vendored_frameworks = "NDA/FlashLiveness.xcframework"
   end
 
