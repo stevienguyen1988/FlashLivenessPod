@@ -26,10 +26,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
 
   spec.source            = { :http => 'https://github.com/stevienguyen1988/FlashLivenessPod/releases/download/1.3.0/FlashLiveness.zip' }
-  spec.vendored_frameworks = 'FlashLiveness/FlashLiveness.xcframework'
-  spec.dependency "ObjectMapper", '~> 4.2'
-  spec.dependency "KeychainSwift", '~> 19.0'
-  spec.dependency "SignManager", '~> 1.0.6'
+  
   spec.subspec 'NDA' do |nda|
     nda.dependency "ObjectMapper", '~> 4.2'
     nda.dependency "KeychainSwift", '~> 19.0'
