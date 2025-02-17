@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
     nda.dependency "KeychainSwift", '~> 19.0'
     nda.dependency "SignManager", '~> 1.0.6'
     nda.dependency 'LivenessMask/NDA', '~> 1'
-    nda.vendored_frameworks = "NDA/FlashLiveness.xcframework"
+    nda.vendored_frameworks = "NDA/FlashLiveness_NDA.xcframework"
   end
 
   spec.swift_version = "5.0"
