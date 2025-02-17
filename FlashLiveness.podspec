@@ -31,7 +31,6 @@ Pod::Spec.new do |spec|
   spec.dependency "KeychainSwift", '~> 19.0'
   spec.dependency "SignManager", '~> 1.0.6'
   spec.subspec 'NDA' do |nda|
-    nda.version = '1.0.0'
     nda.dependency "ObjectMapper", '~> 4.2'
     nda.dependency "KeychainSwift", '~> 19.0'
     nda.dependency "SignManager", '~> 1.0.6'
