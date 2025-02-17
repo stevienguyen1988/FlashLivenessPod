@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlashLiveness"
-  spec.version      = "1.4.3"
+  spec.version      = "1.4.4"
   spec.summary      = "A short description of FlashLiveness."
   spec.homepage     = "https://github.com/stevienguyen1988/FlashLiveness.git"
   spec.author           = { 'nhatnuoc' => 'binhvuong.2010@gmail.com' }
@@ -31,6 +31,7 @@ Pod::Spec.new do |spec|
   spec.dependency "KeychainSwift", '~> 19.0'
   spec.dependency "SignManager", '~> 1.0.6'
   spec.subspec 'NDA' do |nda|
+    nda.version = '1.0.0'
     nda.dependency "ObjectMapper", '~> 4.2'
     nda.dependency "KeychainSwift", '~> 19.0'
     nda.dependency "SignManager", '~> 1.0.6'
