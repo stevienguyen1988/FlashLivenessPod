@@ -1,74 +1,41 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FlashLiveness
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FlashLiveness
 import AVFoundation
-import DeveloperToolsSupport
 import Foundation
 import KeychainSwift
 import ObjectMapper
 import SignManager
 import Swift
-import SwiftUI
 import UIKit
 import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AdvancedLivenessMaskView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public var instructionText: Swift.String? {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) public var previewFrame: CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) public var processingOvalBorderColor: UIKit.UIColor
-  @_Concurrency.MainActor(unsafe) public var errorOvalBorderColor: UIKit.UIColor
-  @_Concurrency.MainActor(unsafe) public var normalOvalBorderColor: UIKit.UIColor
-  @_Concurrency.MainActor(unsafe) public var processingAnimDuration: Swift.Double
-  @_Concurrency.MainActor(unsafe) public var instructionTextAttributes: [Foundation.NSAttributedString.Key : Any]
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @objcMembers public class LivenessResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
+  @objc public var status: Swift.Int
+  @objc public var data: Swift.String
+  @objc public var signature: Swift.String
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
   @objc deinit
 }
-extension FlashLiveness.AdvancedLivenessMaskView {
-  @_Concurrency.MainActor(unsafe) public func showError(_ message: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func showDetected(_ message: Swift.String?, step: Swift.Int = 0)
-  @_Concurrency.MainActor(unsafe) public func showProcessing(_ message: Swift.String?)
-  @_Concurrency.MainActor(unsafe) public func showMessage(_ message: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func showSuccess(_ message: Swift.String)
-}
-@_inheritsConvenienceInitializers @available(iOS 13.0, *)
-@objc public class Networking : ObjectiveC.NSObject {
-  @objc public static let shared: FlashLiveness.Networking
-  @objc public func setup(appId: Swift.String, logLevel: FlashLiveness.LogLevel = .debug, url: Swift.String, publicKey: Swift.String, privateKey: Swift.String)
-  @objc public func generateDeviceInfor(deviceId: Swift.String = "", additionParam: [Swift.String : Any] = [:], paramHeader: [Swift.String : Swift.String] = [:], ownerId: Swift.String = "") -> FlashLiveness.LivenessResponse
-  @objc public func resetDeviceInfo()
-  @objc override dynamic public init()
+@objc @objcMembers public class LivenessResult : ObjectiveC.NSObject, ObjectMapper.Mappable {
+  @objc public var status: Swift.Int
+  @objc public var data: [Swift.String : Any]
+  @objc public var signature: Swift.String
+  @objc public var livenesScore: Swift.Double
+  @objc public var faceMatchingScore: Swift.Double
+  @objc public var success: Swift.Bool
+  @objc public var sim: Swift.Double
+  @objc public var livenessType: Swift.String
+  @objc public var mess: Swift.String
+  @objc public var code: Swift.String
+  @objc public var request_id: Swift.String
+  @objc public var faceMatchingResult: Swift.Double
+  required public init?(map: ObjectMapper.Map)
+  public func mapping(map: ObjectMapper.Map)
   @objc deinit
-}
-@available(iOS 13.0, *)
-extension FlashLiveness.Networking {
-  #if compiler(>=5.3) && $AsyncAwait
-  public func uploadImage(normalImage: [UIKit.UIImage], color: Swift.Int, sessionId: Swift.String = "") async throws -> [Swift.String : Any]
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  @objc dynamic public func initTransaction(duration: Swift.Int = 30, additionParam: [Swift.String : Any] = [:], paramHeader: [Swift.String : Swift.String] = [:], clientTransactionId: Swift.String = "") async throws -> FlashLiveness.LivenessResponse
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  @objc dynamic public func registerFace(faceImage: UIKit.UIImage, additionParam: [Swift.String : Any] = [:], paramHeader: [Swift.String : Swift.String] = [:]) async throws -> FlashLiveness.LivenessResponse
-  #endif
-}
-public struct MultipartRequest {
-  public let boundary: Swift.String
-  public init(boundary: Swift.String = UUID().uuidString)
-  public mutating func add(key: Swift.String, value: Swift.String)
-  public mutating func add(key: Swift.String, fileName: Swift.String, fileMimeType: Swift.String, fileData: Foundation.Data)
-  public var httpContentTypeHeadeValue: Swift.String {
-    get
-  }
-  public var httpBody: Foundation.Data {
-    get
-  }
 }
 @objc public enum LivenessError : Swift.Int, Swift.Error {
   case noFaceDetected
@@ -89,42 +56,32 @@ public struct MultipartRequest {
     get
   }
 }
-@objc public enum LogLevel : Swift.Int, Swift.CaseIterable {
-  case verbose = 0
-  case debug = 1
-  case info = 2
-  case warning = 3
-  case error = 4
-  case none = 5
-  public init?(rawValue: Swift.Int)
-  public typealias AllCases = [FlashLiveness.LogLevel]
-  public typealias RawValue = Swift.Int
-  public static var allCases: [FlashLiveness.LogLevel] {
-    get
-  }
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class Log {
-  public static var logLevel: FlashLiveness.LogLevel
-  public static var storeLogs: Swift.Bool
-  public static var logData: [Swift.String]
-  public class func verbose(_ msg: @autoclosure () -> Swift.String)
-  public class func debug(_ msg: @autoclosure () -> Swift.String)
-  public class func info(_ msg: @autoclosure () -> Swift.String)
-  public class func warning(_ msg: @autoclosure () -> Swift.String)
-  public class func error(_ msg: @autoclosure () -> Swift.String)
-  public class func clearStoredLogs()
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@objc public class Networking : ObjectiveC.NSObject {
+  @objc public static let shared: FlashLiveness.Networking
+  @objc public func setup(appId: Swift.String, logLevel: FlashLiveness.LogLevel = .debug, url: Swift.String, publicKey: Swift.String, privateKey: Swift.String)
+  @objc public func generateDeviceInfor(deviceId: Swift.String = "", additionParam: [Swift.String : Any] = [:], paramHeader: [Swift.String : Swift.String] = [:], ownerId: Swift.String = "") -> FlashLiveness.LivenessResponse
+  @objc public func resetDeviceInfo()
+  @objc override dynamic public init()
   @objc deinit
 }
-public enum LivenessUIStyle {
-  case basic(maskOpacity: CoreFoundation.CGFloat = 0.4, maskColor: UIKit.UIColor = .white, instructionTextAttributes: [Foundation.NSAttributedString.Key : Any] = [
-        .font: UIFont.systemFont(ofSize: 14),
-    ])
-  case advanced(instructionTextAttributes: [Foundation.NSAttributedString.Key : Any] = [
-        .font: UIFont.systemFont(ofSize: 18, weight: .semibold),
-    ])
+@available(iOS 13.0, *)
+extension FlashLiveness.Networking {
+  public func uploadImage(normalImage: [UIKit.UIImage], color: Swift.Int, sessionId: Swift.String = "") async throws -> [Swift.String : Any]
+  @objc dynamic public func initTransaction(duration: Swift.Int = 30, additionParam: [Swift.String : Any] = [:], paramHeader: [Swift.String : Swift.String] = [:], clientTransactionId: Swift.String = "") async throws -> FlashLiveness.LivenessResponse
+  @objc dynamic public func registerFace(faceImage: UIKit.UIImage, additionParam: [Swift.String : Any] = [:], paramHeader: [Swift.String : Swift.String] = [:]) async throws -> FlashLiveness.LivenessResponse
+}
+public struct MultipartRequest {
+  public let boundary: Swift.String
+  public init(boundary: Swift.String = UUID().uuidString)
+  public mutating func add(key: Swift.String, value: Swift.String)
+  public mutating func add(key: Swift.String, fileName: Swift.String, fileMimeType: Swift.String, fileData: Foundation.Data)
+  public var httpContentTypeHeadeValue: Swift.String {
+    get
+  }
+  public var httpBody: Foundation.Data {
+    get
+  }
 }
 public enum FlashLivenessThreshold {
   case high, medium, low
@@ -142,12 +99,6 @@ public enum FlashLivenessMode {
   public var hashValue: Swift.Int {
     get
   }
-}
-@_inheritsConvenienceInitializers @available(iOS 13.0, *)
-@objc public class LivenessUtil : ObjectiveC.NSObject {
-  public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, threshold: FlashLiveness.FlashLivenessThreshold = .high, debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, uiStyle: FlashLiveness.LivenessUIStyle = .basic(maskOpacity: 0.4, maskColor: .white, instructionTextAttributes: [.font: UIFont.systemFont(ofSize: 14), .foregroundColor: UIColor.white]), brightnessEnable: Swift.Bool = true, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
-  @objc override dynamic public init()
-  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class LivenessFaceImage : ObjectiveC.NSObject {
   @objc final public let color: UIKit.UIColor
@@ -180,38 +131,48 @@ public enum FlashLivenessMode {
 extension FlashLiveness.LivenessUtilityDetector : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
   @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
 }
-@objc @objcMembers public class LivenessResponse : ObjectiveC.NSObject, ObjectMapper.Mappable {
-  @objc public var status: Swift.Int
-  @objc public var data: Swift.String
-  @objc public var signature: Swift.String
-  required public init?(map: ObjectMapper.Map)
-  public func mapping(map: ObjectMapper.Map)
+@objc public enum LogLevel : Swift.Int, Swift.CaseIterable {
+  case verbose = 0
+  case debug = 1
+  case info = 2
+  case warning = 3
+  case error = 4
+  case none = 5
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [FlashLiveness.LogLevel]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [FlashLiveness.LogLevel] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Log {
+  public static var logLevel: FlashLiveness.LogLevel
+  public static var storeLogs: Swift.Bool
+  public static var logData: [Swift.String]
+  public class func verbose(_ msg: @autoclosure () -> Swift.String)
+  public class func debug(_ msg: @autoclosure () -> Swift.String)
+  public class func info(_ msg: @autoclosure () -> Swift.String)
+  public class func warning(_ msg: @autoclosure () -> Swift.String)
+  public class func error(_ msg: @autoclosure () -> Swift.String)
+  public class func clearStoredLogs()
   @objc deinit
 }
-@objc @objcMembers public class LivenessResult : ObjectiveC.NSObject, ObjectMapper.Mappable {
-  @objc public var status: Swift.Int
-  @objc public var data: [Swift.String : Any]
-  @objc public var signature: Swift.String
-  @objc public var livenesScore: Swift.Double
-  @objc public var faceMatchingScore: Swift.Double
-  @objc public var success: Swift.Bool
-  @objc public var sim: Swift.Double
-  @objc public var livenessType: Swift.String
-  @objc public var mess: Swift.String
-  @objc public var code: Swift.String
-  @objc public var request_id: Swift.String
-  @objc public var faceMatchingResult: Swift.Double
-  required public init?(map: ObjectMapper.Map)
-  public func mapping(map: ObjectMapper.Map)
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
+@objc public class LivenessUtil : ObjectiveC.NSObject {
+  public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLiveness.FlashLivenessMode = .online, threshold: FlashLiveness.FlashLivenessThreshold = .high, debugging: Swift.Bool = false, delegate: (any FlashLiveness.LivenessUtilityDetectorDelegate)?, maskOpacity: CoreFoundation.CGFloat = 0.4, maskColor: UIKit.UIColor = .white, instructionTextAttributes: [Foundation.NSAttributedString.Key : Any] = [.font: UIFont.systemFont(ofSize: 14), .foregroundColor: UIColor.white], brightnessEnable: Swift.Bool = true, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> FlashLiveness.LivenessUtilityDetector
+  @objc override dynamic public init()
   @objc deinit
 }
 extension FlashLiveness.LivenessError : Swift.Equatable {}
 extension FlashLiveness.LivenessError : Swift.Hashable {}
 extension FlashLiveness.LivenessError : Swift.RawRepresentable {}
-extension FlashLiveness.LogLevel : Swift.Equatable {}
-extension FlashLiveness.LogLevel : Swift.Hashable {}
-extension FlashLiveness.LogLevel : Swift.RawRepresentable {}
 extension FlashLiveness.FlashLivenessThreshold : Swift.Equatable {}
 extension FlashLiveness.FlashLivenessThreshold : Swift.Hashable {}
 extension FlashLiveness.FlashLivenessMode : Swift.Equatable {}
 extension FlashLiveness.FlashLivenessMode : Swift.Hashable {}
+extension FlashLiveness.LogLevel : Swift.Equatable {}
+extension FlashLiveness.LogLevel : Swift.Hashable {}
+extension FlashLiveness.LogLevel : Swift.RawRepresentable {}
