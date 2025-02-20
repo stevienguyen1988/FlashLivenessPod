@@ -1,6 +1,0 @@
-framework module FlashLiveness_NDA {
-  umbrella header "FlashLiveness_NDA.h"
-  export *
-
-  module * { export * }
-}

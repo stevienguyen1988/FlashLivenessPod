@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlashLiveness"
-  spec.version      = "1.4.6"
+  spec.version      = "1.4.7"
   spec.summary      = "A short description of FlashLiveness."
   spec.homepage     = "https://github.com/stevienguyen1988/FlashLiveness.git"
   spec.author           = { 'nhatnuoc' => 'binhvuong.2010@gmail.com' }
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
     nda.dependency 'ObjectMapper', '~> 4.2'
     nda.dependency 'KeychainSwift', '~> 19.0'
     nda.dependency 'SignManager', '~> 1.0.6'
-    nda.dependency 'LivenessMask/NDA', '~> 1'
+    nda.dependency 'lottie-ios', '~> 4.5'
     nda.vendored_frameworks = "NDA/FlashLiveness_NDA.xcframework"
   end
 
