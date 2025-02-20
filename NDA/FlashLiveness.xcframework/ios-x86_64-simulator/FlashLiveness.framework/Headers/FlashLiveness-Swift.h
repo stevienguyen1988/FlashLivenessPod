@@ -308,8 +308,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC13FlashLiveness13FlashLiveness") SWIFT_AVAILABILITY(ios,introduced=13.0)
-@interface FlashLiveness : NSObject
+SWIFT_CLASS("_TtC13FlashLiveness18FlashLivenessUtils") SWIFT_AVAILABILITY(ios,introduced=13.0)
+@interface FlashLivenessUtils : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

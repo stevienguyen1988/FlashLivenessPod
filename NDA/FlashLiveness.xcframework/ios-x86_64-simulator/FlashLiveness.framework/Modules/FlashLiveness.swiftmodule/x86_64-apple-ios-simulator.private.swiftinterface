@@ -191,7 +191,7 @@ extension LivenessUtilityDetector : AVFoundation.AVCaptureVideoDataOutputSampleB
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @available(iOS 13.0, *)
-public class FlashLiveness : ObjectiveC.NSObject {
+public class FlashLivenessUtils : ObjectiveC.NSObject {
   public class func createLivenessDetector(previewView: UIKit.UIView, mode: FlashLivenessMode = .online, threshold: FlashLivenessThreshold = .high, debugging: Swift.Bool = false, delegate: (any LivenessUtilityDetectorDelegate)?, instructionTextAttributes: [Foundation.NSAttributedString.Key : Any] = [.font: UIFont.systemFont(ofSize: 18, weight: .semibold), .foregroundColor: UIColor.black], brightnessEnable: Swift.Bool = true, additionParam: [Swift.String : Any] = [:], additionHeader: [Swift.String : Swift.String] = [:]) -> LivenessUtilityDetector
   @objc override dynamic public init()
   @objc deinit

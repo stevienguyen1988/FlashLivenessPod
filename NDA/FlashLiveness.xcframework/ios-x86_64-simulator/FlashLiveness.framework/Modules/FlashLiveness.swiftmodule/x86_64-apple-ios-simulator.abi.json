@@ -7171,8 +7171,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FlashLiveness",
-        "printedName": "FlashLiveness",
+        "name": "FlashLivenessUtils",
+        "printedName": "FlashLivenessUtils",
         "children": [
           {
             "kind": "Function",
@@ -7296,8 +7296,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13FlashLivenessAAC06createB8Detector11previewView4mode9threshold9debugging8delegate25instructionTextAttributes16brightnessEnable13additionParam0P6HeaderAA0b7UtilityD0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0bsD8Delegate_pSgSDySo21NSAttributedStringKeyaypGSbSDySSypGSDyS2SGtFZ",
-            "mangledName": "$s13FlashLivenessAAC06createB8Detector11previewView4mode9threshold9debugging8delegate25instructionTextAttributes16brightnessEnable13additionParam0P6HeaderAA0b7UtilityD0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0bsD8Delegate_pSgSDySo21NSAttributedStringKeyaypGSbSDySSypGSDyS2SGtFZ",
+            "usr": "s:13FlashLiveness0aB5UtilsC06createB8Detector11previewView4mode9threshold9debugging8delegate25instructionTextAttributes16brightnessEnable13additionParam0Q6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0btE8Delegate_pSgSDySo21NSAttributedStringKeyaypGSbSDySSypGSDyS2SGtFZ",
+            "mangledName": "$s13FlashLiveness0aB5UtilsC06createB8Detector11previewView4mode9threshold9debugging8delegate25instructionTextAttributes16brightnessEnable13additionParam0Q6HeaderAA0b7UtilityE0CSo6UIViewC_AA0aB4ModeOAA0aB9ThresholdOSbAA0btE8Delegate_pSgSDySo21NSAttributedStringKeyaypGSbSDySSypGSDyS2SGtFZ",
             "moduleName": "FlashLiveness",
             "static": true,
             "declAttributes": [
@@ -7313,14 +7313,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "FlashLiveness",
-                "printedName": "FlashLiveness.FlashLiveness",
-                "usr": "c:@M@FlashLiveness@objc(cs)FlashLiveness"
+                "name": "FlashLivenessUtils",
+                "printedName": "FlashLiveness.FlashLivenessUtils",
+                "usr": "c:@M@FlashLiveness@objc(cs)FlashLivenessUtils"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@FlashLiveness@objc(cs)FlashLiveness(im)init",
-            "mangledName": "$s13FlashLivenessAACABycfc",
+            "usr": "c:@M@FlashLiveness@objc(cs)FlashLivenessUtils(im)init",
+            "mangledName": "$s13FlashLiveness0aB5UtilsCACycfc",
             "moduleName": "FlashLiveness",
             "overriding": true,
             "implicit": true,
@@ -7334,8 +7334,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@FlashLiveness@objc(cs)FlashLiveness",
-        "mangledName": "$s13FlashLivenessAAC",
+        "usr": "c:@M@FlashLiveness@objc(cs)FlashLivenessUtils",
+        "mangledName": "$s13FlashLiveness0aB5UtilsC",
         "moduleName": "FlashLiveness",
         "intro_iOS": "13.0",
         "declAttributes": [
@@ -8142,35 +8142,35 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "BooleanLiteral",
-      "offset": 1003,
+      "offset": 1008,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
+      "offset": 1169,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "BooleanLiteral",
-      "offset": 1255,
+      "offset": 1260,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "Dictionary",
-      "offset": 1299,
+      "offset": 1304,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "Dictionary",
-      "offset": 1346,
+      "offset": 1351,
       "length": 3,
       "value": "[]"
     },
