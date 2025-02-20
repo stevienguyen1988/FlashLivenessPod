@@ -7995,14 +7995,14 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 9233,
+      "offset": 9283,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
-      "offset": 24872,
+      "offset": 24955,
       "length": 31,
       "value": "\"Bạn vui lòng nhìn thẳng\""
     },
