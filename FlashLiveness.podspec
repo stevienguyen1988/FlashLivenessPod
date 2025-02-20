@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
     nda.dependency 'KeychainSwift', '~> 19.0'
     nda.dependency 'SignManager', '~> 1.0.6'
     nda.dependency 'lottie-ios', '~> 4.5'
-    nda.vendored_frameworks = "NDA/FlashLiveness_NDA.xcframework"
+    nda.vendored_frameworks = "NDA/FlashLiveness.xcframework"
   end
 
   spec.swift_version = "5.0"
