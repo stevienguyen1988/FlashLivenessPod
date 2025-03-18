@@ -1,0 +1,3670 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignManagement",
+        "printedName": "SignManagement",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignManagement",
+                "printedName": "SignManager.SignManagement",
+                "usr": "c:@M@SignManager@objc(cs)SignManagement"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SignManager@objc(cs)SignManagement(cpy)shared",
+            "mangledName": "$s11SignManager0A10ManagementC6sharedACvpZ",
+            "moduleName": "SignManager",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignManagement",
+                    "printedName": "SignManager.SignManagement",
+                    "usr": "c:@M@SignManager@objc(cs)SignManagement"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SignManager@objc(cs)SignManagement(cm)shared",
+                "mangledName": "$s11SignManager0A10ManagementC6sharedACvgZ",
+                "moduleName": "SignManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignManagement",
+                "printedName": "SignManager.SignManagement",
+                "usr": "c:@M@SignManager@objc(cs)SignManagement"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SignManager@objc(cs)SignManagement(im)init",
+            "mangledName": "$s11SignManager0A10ManagementCACycfc",
+            "moduleName": "SignManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createJWSRequestBody",
+            "printedName": "createJWSRequestBody(parameter:publicKey:privateKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SignManager@objc(cs)SignManagement(im)createJWSRequestBodyWithParameter:publicKey:privateKey:",
+            "mangledName": "$s11SignManager0A10ManagementC20createJWSRequestBody9parameter9publicKey07privateI010Foundation4DataVSgSDySSypG_S2StF",
+            "moduleName": "SignManager",
+            "objc_name": "createJWSRequestBodyWithParameter:publicKey:privateKey:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createJSONFromJWS",
+            "printedName": "createJSONFromJWS(jws:privateKey:publicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SignManager@objc(cs)SignManagement(im)createJSONFromJWSWithJws:privateKey:publicKey:",
+            "mangledName": "$s11SignManager0A10ManagementC17createJSONFromJWS3jws10privateKey06publicI0S2S_S2StF",
+            "moduleName": "SignManager",
+            "objc_name": "createJSONFromJWSWithJws:privateKey:publicKey:",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verifyJWSandConvertToJWE",
+            "printedName": "verifyJWSandConvertToJWE(seriString:publicKeyString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC24verifyJWSandConvertToJWE10seriString09publicKeyJ0S2S_SStF",
+            "mangledName": "$s11SignManager0A10ManagementC24verifyJWSandConvertToJWE10seriString09publicKeyJ0S2S_SStF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertJWEToJSONOBject",
+            "printedName": "convertJWEToJSONOBject(jwe:privateKeyString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC22convertJWEToJSONOBject3jwe16privateKeyStringS2S_SStF",
+            "mangledName": "$s11SignManager0A10ManagementC22convertJWEToJSONOBject3jwe16privateKeyStringS2S_SStF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createJWE",
+            "printedName": "createJWE(data:publicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC9createJWE4data9publicKeySSSg10Foundation4DataV_SStF",
+            "mangledName": "$s11SignManager0A10ManagementC9createJWE4data9publicKeySSSg10Foundation4DataV_SStF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createJWS",
+            "printedName": "createJWS(data:key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC9createJWS4data3keySSSg10Foundation4DataV_SStF",
+            "mangledName": "$s11SignManager0A10ManagementC9createJWS4data3keySSSg10Foundation4DataV_SStF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPublicKey",
+            "printedName": "createPublicKey(pem:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC15createPublicKey3pemSo03SecF3RefaSgSS_tF",
+            "mangledName": "$s11SignManager0A10ManagementC15createPublicKey3pemSo03SecF3RefaSgSS_tF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPrivateKey",
+            "printedName": "createPrivateKey(pem:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC16createPrivateKey3pemSo03SecF3RefaSgSS_tF",
+            "mangledName": "$s11SignManager0A10ManagementC16createPrivateKey3pemSo03SecF3RefaSgSS_tF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSecKeyFromPrivateKey",
+            "printedName": "createSecKeyFromPrivateKey(privateKeyPEM:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC023createSecKeyFromPrivateF007privateF3PEMSo0eF3RefaSgSS_tF",
+            "mangledName": "$s11SignManager0A10ManagementC023createSecKeyFromPrivateF007privateF3PEMSo0eF3RefaSgSS_tF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "extractBase64EncodedData",
+            "printedName": "extractBase64EncodedData(fromPEM:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC24extractBase64EncodedData7fromPEMSSSgSS_tF",
+            "mangledName": "$s11SignManager0A10ManagementC24extractBase64EncodedData7fromPEMSSSgSS_tF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptJWE",
+            "printedName": "decryptJWE(_:privateKeyString:keyManagementAlgorithm:contentEncryptionAlgorithm:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyManagementAlgorithm",
+                "printedName": "SignManager.KeyManagementAlgorithm",
+                "hasDefaultArg": true,
+                "usr": "s:11SignManager22KeyManagementAlgorithmO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentEncryptionAlgorithm",
+                "printedName": "SignManager.ContentEncryptionAlgorithm",
+                "hasDefaultArg": true,
+                "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC10decryptJWE_16privateKeyString03keyC9Algorithm017contentEncryptionJ0S2S_SSAA0gcJ0OAA07ContentlJ0OtF",
+            "mangledName": "$s11SignManager0A10ManagementC10decryptJWE_16privateKeyString03keyC9Algorithm017contentEncryptionJ0S2S_SSAA0gcJ0OAA07ContentlJ0OtF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encryptJWE",
+            "printedName": "encryptJWE(data:publicKey:keyManagementAlgorithm:contentEncryptionAlgorithm:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyManagementAlgorithm",
+                "printedName": "SignManager.KeyManagementAlgorithm",
+                "hasDefaultArg": true,
+                "usr": "s:11SignManager22KeyManagementAlgorithmO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentEncryptionAlgorithm",
+                "printedName": "SignManager.ContentEncryptionAlgorithm",
+                "hasDefaultArg": true,
+                "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11SignManager0A10ManagementC10encryptJWE4data9publicKey03keyC9Algorithm017contentEncryptionJ0SSSg10Foundation4DataV_SSAA0hcJ0OAA07ContentlJ0OtF",
+            "mangledName": "$s11SignManager0A10ManagementC10encryptJWE4data9publicKey03keyC9Algorithm017contentEncryptionJ0SSSg10Foundation4DataV_SSAA0hcJ0OAA07ContentlJ0OtF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SignManager@objc(cs)SignManagement",
+        "mangledName": "$s11SignManager0A10ManagementC",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignMananagerError",
+        "printedName": "SignMananagerError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "badParameter",
+            "printedName": "badParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.SignMananagerError.Type) -> SignManager.SignMananagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignMananagerError",
+                    "printedName": "SignManager.SignMananagerError",
+                    "usr": "c:@M@SignManager@E@SignMananagerError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.SignMananagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SignMananagerError",
+                        "printedName": "SignManager.SignMananagerError",
+                        "usr": "c:@M@SignManager@E@SignMananagerError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SignManager@E@SignMananagerError@SignMananagerErrorBadParameter",
+            "mangledName": "$s11SignManager0A14MananagerErrorO12badParameteryA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "joserError",
+            "printedName": "joserError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.SignMananagerError.Type) -> SignManager.SignMananagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignMananagerError",
+                    "printedName": "SignManager.SignMananagerError",
+                    "usr": "c:@M@SignManager@E@SignMananagerError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.SignMananagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SignMananagerError",
+                        "printedName": "SignManager.SignMananagerError",
+                        "usr": "c:@M@SignManager@E@SignMananagerError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SignManager@E@SignMananagerError@SignMananagerErrorJoserError",
+            "mangledName": "$s11SignManager0A14MananagerErrorO05joserD0yA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SignManager.SignMananagerError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignMananagerError",
+                    "printedName": "SignManager.SignMananagerError",
+                    "usr": "c:@M@SignManager@E@SignMananagerError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SignManager0A14MananagerErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11SignManager0A14MananagerErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "SignManager",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SignManager0A14MananagerErrorO8rawValueSivp",
+            "mangledName": "$s11SignManager0A14MananagerErrorO8rawValueSivp",
+            "moduleName": "SignManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SignManager0A14MananagerErrorO8rawValueSivg",
+                "mangledName": "$s11SignManager0A14MananagerErrorO8rawValueSivg",
+                "moduleName": "SignManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_nsErrorDomain",
+            "printedName": "_nsErrorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SignManager0A14MananagerErrorO03_nsD6DomainSSvpZ",
+            "mangledName": "$s11SignManager0A14MananagerErrorO03_nsD6DomainSSvpZ",
+            "moduleName": "SignManager",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SignManager0A14MananagerErrorO03_nsD6DomainSSvgZ",
+                "mangledName": "$s11SignManager0A14MananagerErrorO03_nsD6DomainSSvgZ",
+                "moduleName": "SignManager",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@SignManager@E@SignMananagerError",
+        "mangledName": "$s11SignManager0A14MananagerErrorO",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_BridgedNSError",
+            "printedName": "_BridgedNSError",
+            "usr": "s:10Foundation15_BridgedNSErrorP",
+            "mangledName": "$s10Foundation15_BridgedNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeableError",
+            "printedName": "_ObjectiveCBridgeableError",
+            "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
+            "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeyManagementAlgorithm",
+        "printedName": "KeyManagementAlgorithm",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "RSA1_5",
+            "printedName": "RSA1_5",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.KeyManagementAlgorithm.Type) -> SignManager.KeyManagementAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.KeyManagementAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO6RSA1_5yA2CmF",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO6RSA1_5yA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RSAOAEP",
+            "printedName": "RSAOAEP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.KeyManagementAlgorithm.Type) -> SignManager.KeyManagementAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.KeyManagementAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO7RSAOAEPyA2CmF",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO7RSAOAEPyA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RSAOAEP256",
+            "printedName": "RSAOAEP256",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.KeyManagementAlgorithm.Type) -> SignManager.KeyManagementAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.KeyManagementAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO10RSAOAEP256yA2CmF",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO10RSAOAEP256yA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "A128KW",
+            "printedName": "A128KW",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.KeyManagementAlgorithm.Type) -> SignManager.KeyManagementAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.KeyManagementAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO6A128KWyA2CmF",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO6A128KWyA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "A192KW",
+            "printedName": "A192KW",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.KeyManagementAlgorithm.Type) -> SignManager.KeyManagementAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.KeyManagementAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO6A192KWyA2CmF",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO6A192KWyA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "A256KW",
+            "printedName": "A256KW",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.KeyManagementAlgorithm.Type) -> SignManager.KeyManagementAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.KeyManagementAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO6A256KWyA2CmF",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO6A256KWyA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "direct",
+            "printedName": "direct",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.KeyManagementAlgorithm.Type) -> SignManager.KeyManagementAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.KeyManagementAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO6directyA2CmF",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO6directyA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SignManager.KeyManagementAlgorithm?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO8rawValueACSgSS_tcfc",
+            "moduleName": "SignManager",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO8rawValueSSvp",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO8rawValueSSvp",
+            "moduleName": "SignManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SignManager22KeyManagementAlgorithmO8rawValueSSvg",
+                "mangledName": "$s11SignManager22KeyManagementAlgorithmO8rawValueSSvg",
+                "moduleName": "SignManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SignManager.KeyManagementAlgorithm]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyManagementAlgorithm",
+                    "printedName": "SignManager.KeyManagementAlgorithm",
+                    "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SignManager22KeyManagementAlgorithmO8allCasesSayACGvpZ",
+            "mangledName": "$s11SignManager22KeyManagementAlgorithmO8allCasesSayACGvpZ",
+            "moduleName": "SignManager",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SignManager.KeyManagementAlgorithm]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SignManager22KeyManagementAlgorithmO8allCasesSayACGvgZ",
+                "mangledName": "$s11SignManager22KeyManagementAlgorithmO8allCasesSayACGvgZ",
+                "moduleName": "SignManager",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SignManager22KeyManagementAlgorithmO",
+        "mangledName": "$s11SignManager22KeyManagementAlgorithmO",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SignManager.KeyManagementAlgorithm]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyManagementAlgorithm",
+                        "printedName": "SignManager.KeyManagementAlgorithm",
+                        "usr": "s:11SignManager22KeyManagementAlgorithmO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContentEncryptionAlgorithm",
+        "printedName": "ContentEncryptionAlgorithm",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "A256CBCHS512",
+            "printedName": "A256CBCHS512",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.ContentEncryptionAlgorithm.Type) -> SignManager.ContentEncryptionAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentEncryptionAlgorithm",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm",
+                    "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentEncryptionAlgorithm",
+                        "printedName": "SignManager.ContentEncryptionAlgorithm",
+                        "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager26ContentEncryptionAlgorithmO12A256CBCHS512yA2CmF",
+            "mangledName": "$s11SignManager26ContentEncryptionAlgorithmO12A256CBCHS512yA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "A128CBCHS256",
+            "printedName": "A128CBCHS256",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.ContentEncryptionAlgorithm.Type) -> SignManager.ContentEncryptionAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentEncryptionAlgorithm",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm",
+                    "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentEncryptionAlgorithm",
+                        "printedName": "SignManager.ContentEncryptionAlgorithm",
+                        "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager26ContentEncryptionAlgorithmO12A128CBCHS256yA2CmF",
+            "mangledName": "$s11SignManager26ContentEncryptionAlgorithmO12A128CBCHS256yA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "A256GCM",
+            "printedName": "A256GCM",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.ContentEncryptionAlgorithm.Type) -> SignManager.ContentEncryptionAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentEncryptionAlgorithm",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm",
+                    "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentEncryptionAlgorithm",
+                        "printedName": "SignManager.ContentEncryptionAlgorithm",
+                        "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager26ContentEncryptionAlgorithmO7A256GCMyA2CmF",
+            "mangledName": "$s11SignManager26ContentEncryptionAlgorithmO7A256GCMyA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "A128GCM",
+            "printedName": "A128GCM",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SignManager.ContentEncryptionAlgorithm.Type) -> SignManager.ContentEncryptionAlgorithm",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentEncryptionAlgorithm",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm",
+                    "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentEncryptionAlgorithm",
+                        "printedName": "SignManager.ContentEncryptionAlgorithm",
+                        "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11SignManager26ContentEncryptionAlgorithmO7A128GCMyA2CmF",
+            "mangledName": "$s11SignManager26ContentEncryptionAlgorithmO7A128GCMyA2CmF",
+            "moduleName": "SignManager",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SignManager.ContentEncryptionAlgorithm?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentEncryptionAlgorithm",
+                    "printedName": "SignManager.ContentEncryptionAlgorithm",
+                    "usr": "s:11SignManager26ContentEncryptionAlgorithmO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11SignManager26ContentEncryptionAlgorithmO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11SignManager26ContentEncryptionAlgorithmO8rawValueACSgSS_tcfc",
+            "moduleName": "SignManager",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11SignManager26ContentEncryptionAlgorithmO8rawValueSSvp",
+            "mangledName": "$s11SignManager26ContentEncryptionAlgorithmO8rawValueSSvp",
+            "moduleName": "SignManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11SignManager26ContentEncryptionAlgorithmO8rawValueSSvg",
+                "mangledName": "$s11SignManager26ContentEncryptionAlgorithmO8rawValueSSvg",
+                "moduleName": "SignManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11SignManager26ContentEncryptionAlgorithmO",
+        "mangledName": "$s11SignManager26ContentEncryptionAlgorithmO",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Compression",
+        "printedName": "Compression",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SignManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SignManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SecKey",
+        "printedName": "SecKey",
+        "declKind": "Class",
+        "usr": "c:@T@SecKeyRef",
+        "moduleName": "Security",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_CFObject",
+            "printedName": "_CFObject",
+            "usr": "s:14CoreFoundation9_CFObjectP",
+            "mangledName": "$s14CoreFoundation9_CFObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/ECKeys.swift",
+      "kind": "Dictionary",
+      "offset": 5283,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/ECKeys.swift",
+      "kind": "Dictionary",
+      "offset": 6228,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/ECKeys.swift",
+      "kind": "Dictionary",
+      "offset": 10372,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/ECKeys.swift",
+      "kind": "Dictionary",
+      "offset": 11585,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Deserializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2498,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Deserializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2533,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Deserializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2570,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Deserializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2604,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Deserializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2644,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Deserializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2692,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Deserializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2730,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Deserializer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2775,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWSHeader.swift",
+      "kind": "Array",
+      "offset": 1335,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/ASN1DERParsing.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8780,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "StringLiteral",
+      "offset": 1572,
+      "length": 7,
+      "value": "\"P-256\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "StringLiteral",
+      "offset": 1596,
+      "length": 7,
+      "value": "\"P-384\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "StringLiteral",
+      "offset": 1620,
+      "length": 7,
+      "value": "\"P-521\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "StringLiteral",
+      "offset": 1572,
+      "length": 7,
+      "value": "\"P-256\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "StringLiteral",
+      "offset": 1596,
+      "length": 7,
+      "value": "\"P-384\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "StringLiteral",
+      "offset": 1620,
+      "length": 7,
+      "value": "\"P-521\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3649,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3680,
+      "length": 4,
+      "value": "0x03"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3709,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3755,
+      "length": 4,
+      "value": "0x06"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3782,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3649,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3680,
+      "length": 4,
+      "value": "0x03"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3709,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3755,
+      "length": 4,
+      "value": "0x06"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3782,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3649,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3680,
+      "length": 4,
+      "value": "0x03"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3709,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3755,
+      "length": 4,
+      "value": "0x06"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/CryptoImplementation\/EC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3782,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1106,
+      "length": 5,
+      "value": "\"kty\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1130,
+      "length": 5,
+      "value": "\"use\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 9,
+      "value": "\"key_ops\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1192,
+      "length": 5,
+      "value": "\"alg\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 5,
+      "value": "\"kid\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 5,
+      "value": "\"x5u\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1286,
+      "length": 5,
+      "value": "\"x5c\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1333,
+      "length": 5,
+      "value": "\"x5t\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 10,
+      "value": "\"x5t#S256\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1106,
+      "length": 5,
+      "value": "\"kty\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1130,
+      "length": 5,
+      "value": "\"use\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 9,
+      "value": "\"key_ops\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1192,
+      "length": 5,
+      "value": "\"alg\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 5,
+      "value": "\"kid\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 5,
+      "value": "\"x5u\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1286,
+      "length": 5,
+      "value": "\"x5c\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1333,
+      "length": 5,
+      "value": "\"x5t\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 10,
+      "value": "\"x5t#S256\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1698,
+      "length": 3,
+      "value": "\"n\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1722,
+      "length": 3,
+      "value": "\"e\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1753,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1698,
+      "length": 3,
+      "value": "\"n\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1722,
+      "length": 3,
+      "value": "\"e\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1753,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1961,
+      "length": 3,
+      "value": "\"k\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1961,
+      "length": 3,
+      "value": "\"k\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2150,
+      "length": 5,
+      "value": "\"crv\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2186,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2212,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2150,
+      "length": 5,
+      "value": "\"crv\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2186,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWKParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2212,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/SignManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12300,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/SignManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12300,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWK.swift",
+      "kind": "StringLiteral",
+      "offset": 1568,
+      "length": 5,
+      "value": "\"RSA\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWK.swift",
+      "kind": "StringLiteral",
+      "offset": 1589,
+      "length": 5,
+      "value": "\"oct\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWK.swift",
+      "kind": "StringLiteral",
+      "offset": 1609,
+      "length": 4,
+      "value": "\"EC\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWK.swift",
+      "kind": "StringLiteral",
+      "offset": 1568,
+      "length": 5,
+      "value": "\"RSA\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWK.swift",
+      "kind": "StringLiteral",
+      "offset": 1589,
+      "length": 5,
+      "value": "\"oct\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWK.swift",
+      "kind": "StringLiteral",
+      "offset": 1609,
+      "length": 4,
+      "value": "\"EC\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2067,
+      "length": 8,
+      "value": "\"RSA1_5\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2167,
+      "length": 10,
+      "value": "\"RSA-OAEP\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2276,
+      "length": 14,
+      "value": "\"RSA-OAEP-256\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2695,
+      "length": 5,
+      "value": "\"dir\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2067,
+      "length": 8,
+      "value": "\"RSA1_5\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2167,
+      "length": 10,
+      "value": "\"RSA-OAEP\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2276,
+      "length": 14,
+      "value": "\"RSA-OAEP-256\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2695,
+      "length": 5,
+      "value": "\"dir\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2970,
+      "length": 15,
+      "value": "\"A256CBC-HS512\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 3068,
+      "length": 15,
+      "value": "\"A128CBC-HS256\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 3161,
+      "length": 9,
+      "value": "\"A256GCM\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 3248,
+      "length": 9,
+      "value": "\"A128GCM\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 2970,
+      "length": 15,
+      "value": "\"A256CBC-HS512\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 3068,
+      "length": 15,
+      "value": "\"A128CBC-HS256\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 3161,
+      "length": 9,
+      "value": "\"A256GCM\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 3248,
+      "length": 9,
+      "value": "\"A128GCM\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 4081,
+      "length": 5,
+      "value": "\"DEF\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 4103,
+      "length": 6,
+      "value": "\"NONE\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 4081,
+      "length": 5,
+      "value": "\"DEF\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Algorithms.swift",
+      "kind": "StringLiteral",
+      "offset": 4103,
+      "length": 6,
+      "value": "\"NONE\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/JWEHeader.swift",
+      "kind": "Array",
+      "offset": 1335,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/Serializer.swift",
+      "kind": "Array",
+      "offset": 1599,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/SymmetricKeys.swift",
+      "kind": "Dictionary",
+      "offset": 2685,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/SymmetricKeys.swift",
+      "kind": "Dictionary",
+      "offset": 3500,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/RSAKeys.swift",
+      "kind": "Dictionary",
+      "offset": 5023,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/RSAKeys.swift",
+      "kind": "Dictionary",
+      "offset": 5911,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/RSAKeys.swift",
+      "kind": "Dictionary",
+      "offset": 9652,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/Signmanager\/SignManager\/JOSESwift\/Sources\/RSAKeys.swift",
+      "kind": "Dictionary",
+      "offset": 10682,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC818162D8814A300F2D1E7 /* FlashLiveness.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC818102D8813EA00F2D1E7 /* FlashLiveness.xcframework */; };
+		0FC818172D8814A300F2D1E7 /* FlashLiveness.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC818102D8813EA00F2D1E7 /* FlashLiveness.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FC818192D8814A500F2D1E7 /* QTSLiveness.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC818122D88142A00F2D1E7 /* QTSLiveness.xcframework */; };
+		0FC8181A2D8814A500F2D1E7 /* QTSLiveness.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC818122D88142A00F2D1E7 /* QTSLiveness.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FC8181B2D8814A700F2D1E7 /* SignManager.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC818142D88144B00F2D1E7 /* SignManager.xcframework */; };
+		0FC8181C2D8814A700F2D1E7 /* SignManager.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC818142D88144B00F2D1E7 /* SignManager.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FC818512D88164600F2D1E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8184E2D88164600F2D1E7 /* SceneDelegate.swift */; };
+		0FC818522D88164600F2D1E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8184F2D88164600F2D1E7 /* ViewController.swift */; };
+		0FC818532D88164600F2D1E7 /* LivenessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8184B2D88164600F2D1E7 /* LivenessVC.swift */; };
+		0FC818542D88164600F2D1E7 /* LivenessFlashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8184A2D88164600F2D1E7 /* LivenessFlashVC.swift */; };
+		0FC818552D88164600F2D1E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC8183F2D88164600F2D1E7 /* AppDelegate.swift */; };
+		0FC818582D88164600F2D1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC8184D2D88164600F2D1E7 /* Main.storyboard */; };
+		0FC818592D88164600F2D1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC818402D88164600F2D1E7 /* Assets.xcassets */; };
+		0FC8185B2D88164600F2D1E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC818482D88164600F2D1E7 /* LaunchScreen.storyboard */; };
+		8089F47FA710D1829A7F4998 /* Pods_LivenessLocalSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB05E8BAF3324A2F1FD1E74 /* Pods_LivenessLocalSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FC818182D8814A300F2D1E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0FC818172D8814A300F2D1E7 /* FlashLiveness.xcframework in Embed Frameworks */,
+				0FC8181C2D8814A700F2D1E7 /* SignManager.xcframework in Embed Frameworks */,
+				0FC8181A2D8814A500F2D1E7 /* QTSLiveness.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		037317221C19A9DEE222DB68 /* Pods-LivenessCloudSample-LivenessCloudSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessCloudSample-LivenessCloudSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-LivenessCloudSample-LivenessCloudSampleUITests/Pods-LivenessCloudSample-LivenessCloudSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07D261E7429F0234844DD719 /* Pods-LivenessLocalSample-LivenessCloudSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessLocalSample-LivenessCloudSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-LivenessLocalSample-LivenessCloudSampleUITests/Pods-LivenessLocalSample-LivenessCloudSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0FC818102D8813EA00F2D1E7 /* FlashLiveness.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FlashLiveness.xcframework; sourceTree = "<group>"; };
+		0FC818122D88142A00F2D1E7 /* QTSLiveness.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = QTSLiveness.xcframework; sourceTree = "<group>"; };
+		0FC818142D88144B00F2D1E7 /* SignManager.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SignManager.xcframework; sourceTree = "<group>"; };
+		0FC8183F2D88164600F2D1E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FC818402D88164600F2D1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FC818462D88164600F2D1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC818472D88164600F2D1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FC818492D88164600F2D1E7 /* LivenessCloudSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LivenessCloudSample.entitlements; sourceTree = "<group>"; };
+		0FC8184A2D88164600F2D1E7 /* LivenessFlashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessFlashVC.swift; sourceTree = "<group>"; };
+		0FC8184B2D88164600F2D1E7 /* LivenessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessVC.swift; sourceTree = "<group>"; };
+		0FC8184C2D88164600F2D1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FC8184E2D88164600F2D1E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0FC8184F2D88164600F2D1E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FBBEB9611A71854A748E4A8 /* Pods-LivenessLocalSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessLocalSample.debug.xcconfig"; path = "Target Support Files/Pods-LivenessLocalSample/Pods-LivenessLocalSample.debug.xcconfig"; sourceTree = "<group>"; };
+		3D563F6122E3B73F8FB1A3B6 /* Pods-LivenessCloudSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessCloudSampleTests.release.xcconfig"; path = "Target Support Files/Pods-LivenessCloudSampleTests/Pods-LivenessCloudSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D80913B6F82D961A981EBEC /* Pods-LivenessCloudSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessCloudSample.debug.xcconfig"; path = "Target Support Files/Pods-LivenessCloudSample/Pods-LivenessCloudSample.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC903D22BD6A74F0001AAD2 /* LivenessLocalSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivenessLocalSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D478C9B6967B1FC479E1823 /* Pods-LivenessLocalSample-LivenessCloudSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessLocalSample-LivenessCloudSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-LivenessLocalSample-LivenessCloudSampleUITests/Pods-LivenessLocalSample-LivenessCloudSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA8658E59EE45DDC85DB43E /* Pods-LivenessCloudSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessCloudSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-LivenessCloudSampleTests/Pods-LivenessCloudSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83AE507E6EC53D5AB96597E8 /* Pods-LivenessCloudSample-LivenessCloudSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessCloudSample-LivenessCloudSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-LivenessCloudSample-LivenessCloudSampleUITests/Pods-LivenessCloudSample-LivenessCloudSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88932F864C441C27BAD9B54A /* Pods-LivenessLocalSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessLocalSample.release.xcconfig"; path = "Target Support Files/Pods-LivenessLocalSample/Pods-LivenessLocalSample.release.xcconfig"; sourceTree = "<group>"; };
+		DAB05E8BAF3324A2F1FD1E74 /* Pods_LivenessLocalSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivenessLocalSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D31A24BD64C06BF502F8CC /* Pods-LivenessCloudSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivenessCloudSample.release.xcconfig"; path = "Target Support Files/Pods-LivenessCloudSample/Pods-LivenessCloudSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC903CF2BD6A74F0001AAD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC818162D8814A300F2D1E7 /* FlashLiveness.xcframework in Frameworks */,
+				0FC818192D8814A500F2D1E7 /* QTSLiveness.xcframework in Frameworks */,
+				0FC8181B2D8814A700F2D1E7 /* SignManager.xcframework in Frameworks */,
+				8089F47FA710D1829A7F4998 /* Pods_LivenessLocalSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC818502D88164600F2D1E7 /* LivenessLocalSample */ = {
+			isa = PBXGroup;
+			children = (
+				0FC8183F2D88164600F2D1E7 /* AppDelegate.swift */,
+				0FC818402D88164600F2D1E7 /* Assets.xcassets */,
+				0FC818462D88164600F2D1E7 /* Info.plist */,
+				0FC818482D88164600F2D1E7 /* LaunchScreen.storyboard */,
+				0FC818492D88164600F2D1E7 /* LivenessCloudSample.entitlements */,
+				0FC8184A2D88164600F2D1E7 /* LivenessFlashVC.swift */,
+				0FC8184B2D88164600F2D1E7 /* LivenessVC.swift */,
+				0FC8184D2D88164600F2D1E7 /* Main.storyboard */,
+				0FC8184E2D88164600F2D1E7 /* SceneDelegate.swift */,
+				0FC8184F2D88164600F2D1E7 /* ViewController.swift */,
+			);
+			path = LivenessLocalSample;
+			sourceTree = "<group>";
+		};
+		4BC903C92BD6A74F0001AAD2 = {
+			isa = PBXGroup;
+			children = (
+				0FC818502D88164600F2D1E7 /* LivenessLocalSample */,
+				4BC903D32BD6A74F0001AAD2 /* Products */,
+				BDF9C2ACF7B160BFE5321944 /* Pods */,
+				F13F4F01D0305B51F2FF7E2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BC903D32BD6A74F0001AAD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC903D22BD6A74F0001AAD2 /* LivenessLocalSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF9C2ACF7B160BFE5321944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D80913B6F82D961A981EBEC /* Pods-LivenessCloudSample.debug.xcconfig */,
+				F0D31A24BD64C06BF502F8CC /* Pods-LivenessCloudSample.release.xcconfig */,
+				83AE507E6EC53D5AB96597E8 /* Pods-LivenessCloudSample-LivenessCloudSampleUITests.debug.xcconfig */,
+				037317221C19A9DEE222DB68 /* Pods-LivenessCloudSample-LivenessCloudSampleUITests.release.xcconfig */,
+				7EA8658E59EE45DDC85DB43E /* Pods-LivenessCloudSampleTests.debug.xcconfig */,
+				3D563F6122E3B73F8FB1A3B6 /* Pods-LivenessCloudSampleTests.release.xcconfig */,
+				1FBBEB9611A71854A748E4A8 /* Pods-LivenessLocalSample.debug.xcconfig */,
+				88932F864C441C27BAD9B54A /* Pods-LivenessLocalSample.release.xcconfig */,
+				6D478C9B6967B1FC479E1823 /* Pods-LivenessLocalSample-LivenessCloudSampleUITests.debug.xcconfig */,
+				07D261E7429F0234844DD719 /* Pods-LivenessLocalSample-LivenessCloudSampleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F13F4F01D0305B51F2FF7E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FC818142D88144B00F2D1E7 /* SignManager.xcframework */,
+				0FC818122D88142A00F2D1E7 /* QTSLiveness.xcframework */,
+				0FC818102D8813EA00F2D1E7 /* FlashLiveness.xcframework */,
+				DAB05E8BAF3324A2F1FD1E74 /* Pods_LivenessLocalSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BC903D12BD6A74F0001AAD2 /* LivenessLocalSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC903FC2BD6A7500001AAD2 /* Build configuration list for PBXNativeTarget "LivenessLocalSample" */;
+			buildPhases = (
+				2F7BF8AA64A5DEEF1E9BDBAD /* [CP] Check Pods Manifest.lock */,
+				4BC903CE2BD6A74F0001AAD2 /* Sources */,
+				4BC903CF2BD6A74F0001AAD2 /* Frameworks */,
+				4BC903D02BD6A74F0001AAD2 /* Resources */,
+				6CACB0BA9772DBC0C4B9ACD8 /* [CP] Embed Pods Frameworks */,
+				0FC818182D8814A300F2D1E7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivenessLocalSample;
+			productName = LivenessCloudSample;
+			productReference = 4BC903D22BD6A74F0001AAD2 /* LivenessLocalSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BC903CA2BD6A74F0001AAD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4BC903D12BD6A74F0001AAD2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 4BC903CD2BD6A74F0001AAD2 /* Build configuration list for PBXProject "LivenessLocalSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BC903C92BD6A74F0001AAD2;
+			productRefGroup = 4BC903D32BD6A74F0001AAD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC903D12BD6A74F0001AAD2 /* LivenessLocalSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BC903D02BD6A74F0001AAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC818582D88164600F2D1E7 /* Main.storyboard in Resources */,
+				0FC818592D88164600F2D1E7 /* Assets.xcassets in Resources */,
+				0FC8185B2D88164600F2D1E7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F7BF8AA64A5DEEF1E9BDBAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LivenessLocalSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CACB0BA9772DBC0C4B9ACD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LivenessLocalSample/Pods-LivenessLocalSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LivenessLocalSample/Pods-LivenessLocalSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LivenessLocalSample/Pods-LivenessLocalSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BC903CE2BD6A74F0001AAD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC818512D88164600F2D1E7 /* SceneDelegate.swift in Sources */,
+				0FC818522D88164600F2D1E7 /* ViewController.swift in Sources */,
+				0FC818532D88164600F2D1E7 /* LivenessVC.swift in Sources */,
+				0FC818542D88164600F2D1E7 /* LivenessFlashVC.swift in Sources */,
+				0FC818552D88164600F2D1E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FC818482D88164600F2D1E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC818472D88164600F2D1E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0FC8184D2D88164600F2D1E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC8184C2D88164600F2D1E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BC903FA2BD6A7500001AAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BC903FB2BD6A7500001AAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC903FD2BD6A7500001AAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBBEB9611A71854A748E4A8 /* Pods-LivenessLocalSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = 2V3Y2Q9V3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LivenessLocalSample/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses NFC to scan passports";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Test camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ứng dụng cần quyền lưu ảnh";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nhatnuoc.liveness.local;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4BC903FE2BD6A7500001AAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88932F864C441C27BAD9B54A /* Pods-LivenessLocalSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = 2V3Y2Q9V3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LivenessLocalSample/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "This app uses NFC to scan passports";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Test camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ứng dụng cần quyền lưu ảnh";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nhatnuoc.liveness.local;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC903CD2BD6A74F0001AAD2 /* Build configuration list for PBXProject "LivenessLocalSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC903FA2BD6A7500001AAD2 /* Debug */,
+				4BC903FB2BD6A7500001AAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC903FC2BD6A7500001AAD2 /* Build configuration list for PBXNativeTarget "LivenessLocalSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC903FD2BD6A7500001AAD2 /* Debug */,
+				4BC903FE2BD6A7500001AAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BC903CA2BD6A74F0001AAD2 /* Project object */;
+}
