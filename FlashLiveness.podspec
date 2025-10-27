@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'NDA' do |nda|
     nda.dependency 'ObjectMapper', '~> 4.2'
-    nda.dependency 'KeychainSwift', '~> 19.0'
+    nda.dependency 'KeychainSwift', '24.0.0'
     nda.dependency 'SignManager', '~> 1.0.6'
     nda.dependency 'lottie-ios', '4.4.1'
     nda.vendored_frameworks = "NDA/FlashLiveness.xcframework"
