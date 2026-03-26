@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FlashLiveness"
-  spec.version      = "1.4.11"
+  spec.version      = "1.4.12"
   spec.summary      = "A short description of FlashLiveness."
   spec.homepage     = "https://github.com/stevienguyen1988/FlashLiveness.git"
   spec.author           = { 'nhatnuoc' => 'binhvuong.2010@gmail.com' }
@@ -25,15 +25,13 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source            = { :http => 'https://github.com/stevienguyen1988/FlashLivenessPod/releases/download/1.3.0/FlashLiveness.zip' }
+  spec.source            = { :http => 'https://github.com/stevienguyen1988/FlashLivenessPod/releases/download/1.4.12/FlashLiveness.zip' }
   
-  spec.subspec 'NDA' do |nda|
-    nda.dependency 'ObjectMapper', '~> 4.2'
-    nda.dependency 'KeychainSwift', '24.0.0'
-    nda.dependency 'SignManager', '~> 1.0.6'
-    nda.dependency 'lottie-ios', '4.4.1'
-    nda.vendored_frameworks = "NDA/FlashLiveness.xcframework"
-  end
+  spec.dependency 'ObjectMapper', '~> 4.2'
+  spec.dependency 'KeychainSwift', '24.0.0'
+  spec.dependency 'SignManager', '~> 1.0.6'
+  spec.dependency 'lottie-ios', '3.4.0'
+  spec.vendored_frameworks = "FlashLiveness/FlashLiveness.xcframework"
 
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
