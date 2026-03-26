@@ -7454,784 +7454,784 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 358,
       "length": 22,
       "value": "\"\/eid\/v1\/license-info\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 24,
       "value": "\"\/eid\/v3\/registerDevice\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 495,
       "length": 25,
       "value": "\"\/eid\/v3\/initTransaction\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 20,
       "value": "\"\/eid\/v3\/verifyFace\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 693,
       "length": 22,
       "value": "\"\/eid\/v3\/registerFace\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 765,
       "length": 28,
       "value": "\"\/eid\/v3\/initLivenessAttemp\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "BooleanLiteral",
       "offset": 842,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "BooleanLiteral",
       "offset": 876,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "BooleanLiteral",
       "offset": 1029,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 1069,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 1107,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 1144,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 1176,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 1216,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 1262,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 1301,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 1676,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 1708,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 1742,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 1763,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 3159,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "IntegerLiteral",
       "offset": 9456,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 9546,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "IntegerLiteral",
       "offset": 10679,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 10711,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 10745,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 10778,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 11847,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 11881,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 15346,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "Dictionary",
       "offset": 15383,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Networking.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Networking.swift",
       "kind": "StringLiteral",
       "offset": 20365,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "StringLiteral",
       "offset": 338,
       "length": 29,
       "value": "\"ovalBorderProcessingAnimKey\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "StringLiteral",
       "offset": 751,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 1114,
       "length": 3,
       "value": "-25"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 1125,
       "length": 3,
       "value": "-34"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 1138,
       "length": 3,
       "value": "-25"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 1150,
       "length": 3,
       "value": "-32"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 1409,
       "length": 3,
       "value": "-25"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 1418,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "FloatLiteral",
       "offset": 1679,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 1800,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "StringLiteral",
       "offset": 1990,
       "length": 15,
       "value": "\"anim-detected\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "FloatLiteral",
       "offset": 2168,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "BooleanLiteral",
       "offset": 2429,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "FloatLiteral",
       "offset": 8425,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "FloatLiteral",
       "offset": 8449,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
       "offset": 8477,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
       "kind": "IntegerLiteral",
       "offset": 197,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
       "kind": "IntegerLiteral",
       "offset": 269,
       "length": 25,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 11,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
       "kind": "IntegerLiteral",
       "offset": 325,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessError.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 9,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 322,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 343,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 362,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "IntegerLiteral",
       "offset": 380,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 488,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Logging.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Logging.swift",
       "kind": "BooleanLiteral",
       "offset": 618,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 274,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 340,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 350,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 362,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLivenessDetector.swift",
       "kind": "StringLiteral",
       "offset": 2822,
       "length": 32,
       "value": "\"Hãy nhìn thẳng vào camera\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "Array",
       "offset": 4476,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 4549,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 4638,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 6754,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
       "offset": 6790,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "FloatLiteral",
       "offset": 7067,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
       "offset": 7485,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 9202,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 9283,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/LivenessUtilityDetector.swift",
       "kind": "StringLiteral",
       "offset": 24955,
       "length": 31,
       "value": "\"Bạn vui lòng nhìn thẳng\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Extension.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Extension.swift",
       "kind": "FloatLiteral",
       "offset": 3480,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Extension.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Extension.swift",
       "kind": "BooleanLiteral",
       "offset": 4777,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Extension.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Extension.swift",
       "kind": "BooleanLiteral",
       "offset": 5444,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/DeviceManager.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/DeviceManager.swift",
       "kind": "StringLiteral",
       "offset": 2900,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 234,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
       "offset": 331,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "IntegerLiteral",
       "offset": 701,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "Dictionary",
       "offset": 754,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
       "offset": 805,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "FloatLiteral",
       "offset": 845,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "FloatLiteral",
       "offset": 891,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "BooleanLiteral",
       "offset": 925,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "FloatLiteral",
       "offset": 959,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1000,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1032,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1064,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1102,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/Model.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/Model.swift",
       "kind": "FloatLiteral",
       "offset": 1149,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "BooleanLiteral",
       "offset": 1008,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "IntegerLiteral",
       "offset": 1169,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "BooleanLiteral",
       "offset": 1260,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "Dictionary",
       "offset": 1304,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Projects\/ios\/cardReader\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
+      "filePath": "\/Users\/namnv\/Projects\/ios\/SDK\/FlashLiveness\/FlashLiveness\/FlashLiveness.swift",
       "kind": "Dictionary",
       "offset": 1351,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-abwvpgenzjdxshabvqqcbbluwnxd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-edswaygxvegjjvetrhgpxqjeahle\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 618,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-abwvpgenzjdxshabvqqcbbluwnxd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-edswaygxvegjjvetrhgpxqjeahle\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 747,
       "length": 8,
       "value": "\"normal\""
     },
     {
-      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-abwvpgenzjdxshabvqqcbbluwnxd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-edswaygxvegjjvetrhgpxqjeahle\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 899,
       "length": 20,
       "value": "\"oval_border_normal\""
     },
     {
-      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-abwvpgenzjdxshabvqqcbbluwnxd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-edswaygxvegjjvetrhgpxqjeahle\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1051,
       "length": 13,
       "value": "\"primaryText\""
     },
     {
-      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-abwvpgenzjdxshabvqqcbbluwnxd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-edswaygxvegjjvetrhgpxqjeahle\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1194,
       "length": 12,
       "value": "\"processing\""
     },
     {
-      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-abwvpgenzjdxshabvqqcbbluwnxd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-edswaygxvegjjvetrhgpxqjeahle\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1330,
       "length": 9,
       "value": "\"success\""
     },
     {
-      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-abwvpgenzjdxshabvqqcbbluwnxd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-edswaygxvegjjvetrhgpxqjeahle\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1569,
       "length": 10,
       "value": "\"bg_flash\""
     },
     {
-      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-abwvpgenzjdxshabvqqcbbluwnxd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/namnv\/Library\/Developer\/Xcode\/DerivedData\/FlashLiveness-edswaygxvegjjvetrhgpxqjeahle\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FlashLiveness\/IntermediateBuildFilesPath\/FlashLiveness.build\/Release-iphonesimulator\/FlashLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1715,
       "length": 16,
